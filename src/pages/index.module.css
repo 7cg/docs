@@ -17,10 +17,10 @@
     radial-gradient(ellipse 65% 100% at 10% 50%, rgba(185, 99, 208, 0.18) 0%, transparent 65%),
     radial-gradient(ellipse 55% 80%  at 90% 40%, rgba(115, 218, 234, 0.15) 0%, transparent 60%),
     radial-gradient(ellipse 45% 70%  at 50% 110%, rgba(150, 80, 200, 0.10) 0%, transparent 55%);
-  animation: meshMove 9s ease-in-out infinite alternate;
+  animation: heroMeshMove 9s ease-in-out infinite alternate;
 }
 
-@keyframes meshMove {
+@keyframes heroMeshMove {
   from { transform: scale(1) rotate(0deg);    opacity: 0.9; }
   to   { transform: scale(1.08) rotate(2deg); opacity: 1; }
 }
@@ -139,6 +139,12 @@
 [data-theme='dark'] .heroBtn:hover {
   background: rgba(255, 255, 255, 0.22);
   color: #fff;
+}
+
+@supports not (backdrop-filter: blur(1px)) {
+  [data-theme='dark'] .heroBtn {
+    background: rgba(80, 40, 120, 0.85);
+  }
 }
 
 /* ── Responsive ──────────────────────────────────────────── */
