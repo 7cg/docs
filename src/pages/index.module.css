@@ -1,23 +1,149 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+.hero {
   position: relative;
   overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding: 0 clamp(24px, 6vw, 80px);
+  min-height: clamp(320px, 40vh, 480px);
+  background: #f8f4ff;
+}
+
+/* Animated gradient mesh — light mode */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 65% 100% at 10% 50%, rgba(185, 99, 208, 0.18) 0%, transparent 65%),
+    radial-gradient(ellipse 55% 80%  at 90% 40%, rgba(115, 218, 234, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 45% 70%  at 50% 110%, rgba(150, 80, 200, 0.10) 0%, transparent 55%);
+  animation: meshMove 9s ease-in-out infinite alternate;
+}
+
+@keyframes meshMove {
+  from { transform: scale(1) rotate(0deg);    opacity: 0.9; }
+  to   { transform: scale(1.08) rotate(2deg); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero::before { animation: none; }
+}
+
+/* Ghost logo watermark */
+.heroWatermark {
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: clamp(200px, 28vw, 340px);
+  height: auto;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.12;
+  /* Tint to brand purple in light mode */
+  filter: brightness(0) saturate(100%) invert(27%) sepia(50%) saturate(700%) hue-rotate(255deg) brightness(0.85);
+}
+
+/* Content column */
+.heroContent {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 460px;
+}
+
+.heroEyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: hsl(287, 54%, 40%);
+}
+
+.heroTitle {
+  font-size: clamp(36px, 6vw, 56px);
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  line-height: 1;
+  color: #1a0a2e;
+  margin: 0;
+}
+
+.heroTagline {
+  font-size: 15px;
+  line-height: 1.55;
+  color: rgba(26, 10, 46, 0.6);
+  margin: 0;
+  max-width: 360px;
+}
+
+.heroBtn {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 11px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  background: hsl(287, 54%, 40%);
+  color: #fff;
+  text-decoration: none;
+  transition: background 150ms ease;
+}
+
+.heroBtn:hover {
+  background: hsl(287, 54%, 34%);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ── Dark mode overrides ─────────────────────────────────── */
+
+[data-theme='dark'] .hero {
+  background: #0e0818;
+}
+
+[data-theme='dark'] .hero::before {
+  background:
+    radial-gradient(ellipse 65% 100% at 10% 50%, rgba(185, 99, 208, 0.50) 0%, transparent 65%),
+    radial-gradient(ellipse 55% 80%  at 90% 40%, rgba(115, 218, 234, 0.32) 0%, transparent 60%),
+    radial-gradient(ellipse 45% 70%  at 50% 110%, rgba(150, 80, 200, 0.25) 0%, transparent 55%);
+}
+
+[data-theme='dark'] .heroWatermark {
+  filter: brightness(0) invert(1);
+  opacity: 0.10;
+}
+
+[data-theme='dark'] .heroEyebrow {
+  color: rgba(185, 99, 208, 0.9);
+}
+
+[data-theme='dark'] .heroTitle {
+  color: #fff;
+}
+
+[data-theme='dark'] .heroTagline {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+[data-theme='dark'] .heroBtn {
+  background: rgba(255, 255, 255, 0.13);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  backdrop-filter: blur(8px);
+  color: #fff;
+}
+
+[data-theme='dark'] .heroBtn:hover {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .hero { padding: 48px 24px; }
+  .heroWatermark { right: -60px; opacity: 0.07; }
 }
