@@ -1,20 +1,17 @@
-# Website
+# 7CG Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Public documentation for [7CG](https://docs.7cg.io) — a broadcast graphics controller for Seventh-day Adventist productions built on CasparCG.
 
-## Installation
+Built with [Docusaurus 3](https://docusaurus.io/). Supports English, Portuguese, and Spanish.
+
+## Getting Started
 
 ```bash
 npm ci
-```
-
-## Local Development
-
-```bash
 npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Opens a local dev server at `http://localhost:3000` with live reload.
 
 ## Build
 
@@ -22,20 +19,24 @@ This command starts a local development server and opens up a browser window. Mo
 npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Generates static output to `build/`.
 
-## Deployment
-
-Using SSH:
+## Deploy
 
 ```bash
-USE_SSH=true npm run deploy
+npm run deploy
 ```
 
-Not using SSH:
+Builds and deploys to [docs.7cg.io](https://docs.7cg.io). Requires SSH access to the remote.
 
-```bash
-GIT_USER=<Your GitHub username> npm run deploy
-```
+## Content
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+| Path | Description |
+|------|-------------|
+| `docs/intro.md` | Introduction and overview |
+| `docs/quickstart.md` | Quick start guide |
+| `docs/configuration/` | Configuration reference |
+| `docs/modules/` | Module documentation |
+| `docs/templates/` | CasparCG template docs |
+
+Node 20+ required.
