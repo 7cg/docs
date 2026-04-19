@@ -6,7 +6,7 @@ tags: [release, features]
 date: 2026-04-19
 ---
 
-:::caution Work in Progress
+:::warning[Work in Progress]
 This post covers features in an unreleased version of 7CG. Details may change before the final release.
 :::
 
