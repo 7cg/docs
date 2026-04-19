@@ -12,6 +12,8 @@ Este artigo cobre funcionalidades de uma versão ainda não lançada do 7CG. Os 
 
 Desde o início de 2026 chegaram muitas novidades ao 7CG. Este artigo resume os destaques: um esquema de área de trabalho totalmente personalizável, exportação de vídeo do rundown, uma integração com o Companion refeita, sincronização com o Cloud Rundown e um conjunto considerável de melhorias de polimento e fiabilidade.
 
+![Vista geral do novo espaço de trabalho do 7CG, com vários módulos visíveis ao mesmo tempo](/img/blog/whats-new-2026/overview-layout.png)
+
 {/* truncate */}
 
 ## Esquema personalizável
@@ -28,11 +30,17 @@ Para entrar no modo de edição, abra **View → Customize Layout**. A partir da
 
 A largura das colunas, a ordem dos módulos e o estado de recolha persistem entre reinícios.
 
+![7CG em modo de edição do esquema, com módulos arrastáveis, colunas editáveis e a barra de módulos ocultos](/img/blog/whats-new-2026/customize-layout-mode.png)
+
+![Predefinições de esquema guardadas no 7CG, incluindo um esquema Media & Rundown pronto a reutilizar](/img/blog/whats-new-2026/layout-presets.png)
+
 ## Exportação de vídeo do rundown
 
 Agora pode exportar um rundown completo como ficheiro de vídeo diretamente a partir do 7CG. O exportador percorre cada bloco, envia-o para o CasparCG, captura a saída e monta o resultado num único ficheiro. Os blocos de Bíblia e hinos percorrem automaticamente todos os seus excertos para que nada fique cortado.
 
 Um botão **Stop** permite cancelar uma exportação em curso a meio do processo, e todas as mensagens de progresso da exportação passam agora a ser apresentadas como notificações internas da aplicação.
+
+![Exportação de vídeo do rundown em curso, com estado da gravação e botão Stop](/img/blog/whats-new-2026/rundown-video-export.png)
 
 ## Sincronização com o Cloud Rundown
 

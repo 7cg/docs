@@ -12,6 +12,8 @@ This post covers features in an unreleased version of 7CG. Details may change be
 
 A lot has landed in 7CG since the start of 2026. This post covers the highlights: a fully customizable workspace layout, rundown video export, a reworked Companion integration, Cloud Rundown sync, and a pile of polish and reliability fixes.
 
+![Overview of the new 7CG workspace with multiple modules visible at once](/img/blog/whats-new-2026/overview-layout.png)
+
 {/* truncate */}
 
 ## Customizable Layout
@@ -28,11 +30,17 @@ To enter edit mode, open **View → Customize Layout**. From there you can:
 
 Column widths, module order, and collapse state all persist across restarts.
 
+![7CG in layout edit mode, showing draggable modules, editable columns, and the hidden modules rail](/img/blog/whats-new-2026/customize-layout-mode.png)
+
+![Saved layout presets in 7CG, with a custom Media & Rundown layout ready to reuse](/img/blog/whats-new-2026/layout-presets.png)
+
 ## Rundown Video Export
 
 You can now export an entire rundown as a video file directly from 7CG. The exporter steps through each block, sends it to CasparCG, captures the output, and assembles the result into a single file. Bible and hymn blocks cycle through all their chunks automatically so nothing gets cut off.
 
 A **Stop** button lets you cancel a running export mid-way, and all export progress messages are now shown as in-app toast notifications.
+
+![Rundown video export in progress, with recording status and a Stop button](/img/blog/whats-new-2026/rundown-video-export.png)
 
 ## Cloud Rundown Sync
 
