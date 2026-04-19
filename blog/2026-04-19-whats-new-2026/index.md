@@ -36,7 +36,7 @@ A **Stop** button lets you cancel a running export mid-way, and all export progr
 
 ## Cloud Rundown Sync
 
-The TV Manager integration has been renamed **Cloud Rundown** and is now a first-class preferences tab. When connected to a SIGA server, 7CG can pull a production sheet and turn it into a rundown automatically — including an episode picker and a preview of the items before you import.
+The TV Manager integration has been renamed **Cloud Rundown** and is now a first-class preferences tab. When connected to a 7CG Cloud Rundown server, 7CG can pull a production sheet and turn it into a rundown automatically — including an episode picker and a preview of the items before you import.
 
 The **Import from Cloud Rundown** menu item is hidden automatically when the integration is turned off, so it only appears when it's actually usable.
 
