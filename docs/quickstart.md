@@ -20,7 +20,7 @@ When you first launch 7CG, a setup wizard will guide you through initial configu
 
 The wizard welcomes you to 7CG. Click **Get Started** to begin setup.
 
-<!-- Screenshot: Welcome screen -->
+{/* Screenshot: Welcome screen */}
 ![Welcome screen](./assets/quickstart/wizard-1.png)
 
 ### 2. Language Selection
@@ -32,7 +32,7 @@ Choose your preferred interface language:
 
 Your selection is applied immediately and is used to pre-filter the default Bible translation list later in the wizard.
 
-<!-- Screenshot: Language selection screen -->
+{/* Screenshot: Language selection screen */}
 ![Language selection screen](./assets/quickstart/wizard-2.png)
 
 ### 3. CasparCG Connection
@@ -45,7 +45,7 @@ Configure the CasparCG server connection used by 7CG:
 
 If you are not ready to connect yet, you can skip this step and configure it later in **Preferences → Connection**.
 
-<!-- Screenshot: Theme selection screen -->
+{/* Screenshot: Theme selection screen */}
 ![Theme selection screen](./assets/quickstart/wizard-3.png)
 
 ### 4. Theme Selection
@@ -62,7 +62,7 @@ Configure your default content sources:
 - **Bible Translation** - Select your preferred Bible version (filtered by your chosen language)
 - **Songbook** - Choose your default songbook for lyrics
 
-<!-- Screenshot: Bible and Songbook selection screen -->
+{/* Screenshot: Bible and Songbook selection screen */}
 ![Defaults screen](./assets/quickstart/wizard-4.png)
 
 ### 6. Other Preferences
@@ -75,7 +75,7 @@ The final wizard step captures a few operational defaults:
 
 Those startup overlays are configured in detail later in **Preferences → Channel Graphics**.
 
-<!-- Screenshot: Other preferences screen -->
+{/* Screenshot: Other preferences screen */}
 ![Other preferences screen](./assets/quickstart/wizard-5.png)
 
 ## After the Wizard

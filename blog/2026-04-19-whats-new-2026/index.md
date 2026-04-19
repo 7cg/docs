@@ -12,7 +12,7 @@ This post covers features in an unreleased version of 7CG. Details may change be
 
 A lot has landed in 7CG since the start of 2026. This post covers the highlights: a fully customizable workspace layout, rundown video export, a reworked Companion integration, Cloud Rundown sync, and a pile of polish and reliability fixes.
 
-<!-- truncate -->
+{/* truncate */}
 
 ## Customizable Layout
 
