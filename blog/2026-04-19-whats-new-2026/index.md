@@ -69,4 +69,4 @@ Every module (Media, Bible, Lyrics, Lower Thirds, Credits, QR Code) now has an e
 
 ---
 
-These features are available in **7CG 2.0.0-beta.19** and later. As always, feedback and bug reports are welcome on [WhatsApp](https://wa.me/) or by opening an issue.
+These features are still in development, and some of them may not make it into the next 7CG release. Keep your eyes open: if all tests pass, they should arrive before the end of April.

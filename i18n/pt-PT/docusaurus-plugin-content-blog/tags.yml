@@ -1,0 +1,29 @@
+release:
+  label: Lançamentos
+  permalink: /release
+  description: Notas de lançamento e registos de alterações
+
+features:
+  label: Funcionalidades
+  permalink: /features
+  description: Anúncios de funcionalidades
+
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Descrição da etiqueta Facebook
+
+hello:
+  label: Olá
+  permalink: /hello
+  description: Descrição da etiqueta Olá
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Descrição da etiqueta Docusaurus
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Descrição da etiqueta Hola
