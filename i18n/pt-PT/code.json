@@ -325,5 +325,67 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "homepage.hero.eyebrow": {
+    "message": "Controlo de Grafismo para Broadcast",
+    "description": "Small uppercase label above the hero title"
+  },
+  "homepage.hero.tagline": {
+    "message": "Controlador CasparCG profissional para produções de igreja e broadcast. Alinhamentos, letras, Bíblia e oráculos, tudo num só lugar.",
+    "description": "Tagline under the hero title"
+  },
+  "homepage.hero.cta": {
+    "message": "Começar →",
+    "description": "Primary call-to-action button in the hero"
+  },
+  "homepage.meta.title": {
+    "message": "Controlo Profissional de Grafismo para Broadcast",
+    "description": "Homepage browser tab title"
+  },
+  "homepage.meta.description": {
+    "message": "Aplicação profissional de controlo CasparCG para grafismo de broadcast. Gira alinhamentos, oráculos, reprodução de multimédia, versículos da Bíblia e letras de cânticos para produções de igreja e broadcast.",
+    "description": "Homepage meta description for SEO"
+  },
+  "homepage.feature.rundown.title": {
+    "message": "Controlo de Alinhamento"
+  },
+  "homepage.feature.rundown.description": {
+    "message": "Crie e execute alinhamentos de programa bloco a bloco. Ative grafismos no momento certo, controle itens específicos a partir do Companion e exporte entradas para vídeo."
+  },
+  "homepage.feature.bible.title": {
+    "message": "Bíblia e Letras"
+  },
+  "homepage.feature.bible.description": {
+    "message": "Apresente passagens da Bíblia e letras de cânticos no ar. Pré-visualize versículos antes de inserir e defina quantas linhas aparecem no ecrã de cada vez."
+  },
+  "homepage.feature.lowerthirds.title": {
+    "message": "Oráculos"
+  },
+  "homepage.feature.lowerthirds.description": {
+    "message": "Anime oráculos, créditos, códigos QR e sobreposições, cada um com a sua camada CasparCG, definições de transição e pré-visualização ao vivo."
+  },
+  "homepage.feature.media.title": {
+    "message": "Reprodução de Multimédia"
+  },
+  "homepage.feature.media.description": {
+    "message": "Reproduza vídeo e áudio através do CasparCG com controlo por canal, monitorização da ocupação de camadas e estado de ligação em tempo real."
+  },
+  "homepage.feature.companion.title": {
+    "message": "Integração com o Companion"
+  },
+  "homepage.feature.companion.description": {
+    "message": "Emparelhe dispositivos Bitfocus Companion através de PIN. Ative itens do alinhamento, altere cores no ar e veja feedback ao vivo nos botões físicos."
+  },
+  "homepage.feature.workspaces.title": {
+    "message": "Espaços de Trabalho Flexíveis"
+  },
+  "homepage.feature.workspaces.description": {
+    "message": "Arraste módulos para qualquer esquema de colunas, oculte o que não precisa e guarde predefinições nomeadas para diferentes operadores ou produções."
+  },
+  "homepage.features.eyebrow": {
+    "message": "Funcionalidades"
+  },
+  "homepage.features.heading": {
+    "message": "Tudo o que precisa, ao vivo."
   }
 }

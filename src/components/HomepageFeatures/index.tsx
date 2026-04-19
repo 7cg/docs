@@ -1,4 +1,5 @@
 import type {ReactNode} from 'react';
+import Translate from '@docusaurus/Translate';
 import {
   OrderDetails,
   Book,
@@ -11,46 +12,80 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   Icon: React.ComponentType<{size?: number; fill?: string}>;
-  title: string;
-  description: string;
+  title: ReactNode;
+  description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     Icon: OrderDetails,
-    title: 'Rundown Control',
-    description:
-      'Build and execute show rundowns block by block. Trigger graphics on cue, target specific items from Companion, and export entries to video.',
+    title: (
+      <Translate id="homepage.feature.rundown.title">Rundown Control</Translate>
+    ),
+    description: (
+      <Translate id="homepage.feature.rundown.description">
+        Build and execute show rundowns block by block. Trigger graphics on cue, target specific items from Companion, and export entries to video.
+      </Translate>
+    ),
   },
   {
     Icon: Book,
-    title: 'Bible & Lyrics',
-    description:
-      'Display Bible passages and song lyrics on air. Preview verses before inserting and control how many lines appear on screen at a time.',
+    title: (
+      <Translate id="homepage.feature.bible.title">Bible & Lyrics</Translate>
+    ),
+    description: (
+      <Translate id="homepage.feature.bible.description">
+        Display Bible passages and song lyrics on air. Preview verses before inserting and control how many lines appear on screen at a time.
+      </Translate>
+    ),
   },
   {
     Icon: TextCreation,
-    title: 'Lower Thirds',
-    description:
-      'Animate lower thirds, credits, QR codes, and overlays — each with its own CasparCG layer, transition settings, and live preview.',
+    title: (
+      <Translate id="homepage.feature.lowerthirds.title">Lower Thirds</Translate>
+    ),
+    description: (
+      <Translate id="homepage.feature.lowerthirds.description">
+        Animate lower thirds, credits, QR codes, and overlays, each with its own CasparCG layer, transition settings, and live preview.
+      </Translate>
+    ),
   },
   {
     Icon: PlayFilledAlt,
-    title: 'Media Playback',
-    description:
-      'Playout video and audio through CasparCG with per-channel control, layer occupancy monitoring, and real-time connection status.',
+    title: (
+      <Translate id="homepage.feature.media.title">Media Playback</Translate>
+    ),
+    description: (
+      <Translate id="homepage.feature.media.description">
+        Playout video and audio through CasparCG with per-channel control, layer occupancy monitoring, and real-time connection status.
+      </Translate>
+    ),
   },
   {
     Icon: ConnectReference,
-    title: 'Companion Integration',
-    description:
-      'Pair Bitfocus Companion devices via PIN. Trigger rundown items, change on-air colours, and see live feedbacks on physical buttons.',
+    title: (
+      <Translate id="homepage.feature.companion.title">
+        Companion Integration
+      </Translate>
+    ),
+    description: (
+      <Translate id="homepage.feature.companion.description">
+        Pair Bitfocus Companion devices via PIN. Trigger rundown items, change on-air colours, and see live feedbacks on physical buttons.
+      </Translate>
+    ),
   },
   {
     Icon: Workspace,
-    title: 'Flexible Workspaces',
-    description:
-      "Drag modules into any column layout, hide what you don't need, and save named presets for different operators or productions.",
+    title: (
+      <Translate id="homepage.feature.workspaces.title">
+        Flexible Workspaces
+      </Translate>
+    ),
+    description: (
+      <Translate id="homepage.feature.workspaces.description">
+        {"Drag modules into any column layout, hide what you don't need, and save named presets for different operators or productions."}
+      </Translate>
+    ),
   },
 ];
 
@@ -69,7 +104,6 @@ function Feature({Icon, title, description}: FeatureItem) {
 export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
-      {/* Shared gradient definition, referenced by every feature icon */}
       <svg width="0" height="0" className={styles.gradientDefs} aria-hidden="true">
         <defs>
           <linearGradient id="featureGradient" x1="0" y1="0" x2="1" y2="1">
@@ -80,14 +114,18 @@ export default function HomepageFeatures(): ReactNode {
       </svg>
 
       <div className="container">
-        <div className={styles.sectionLabel}>Capabilities</div>
+        <div className={styles.sectionLabel}>
+          <Translate id="homepage.features.eyebrow">Capabilities</Translate>
+        </div>
         <h2 className={styles.sectionHeading}>
-          Everything you need, live.
+          <Translate id="homepage.features.heading">
+            Everything you need, live.
+          </Translate>
         </h2>
 
         <div className={styles.grid}>
-          {FeatureList.map((item) => (
-            <Feature key={item.title} {...item} />
+          {FeatureList.map((item, i) => (
+            <Feature key={i} {...item} />
           ))}
         </div>
       </div>
