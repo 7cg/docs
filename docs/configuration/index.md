@@ -16,7 +16,8 @@ The preferences panel is organized into tabs, each focusing on a specific aspect
 - **Block Colors** - Visual customization for block types
 - **App** - Updates, notifications, and logging
 - **Companion** - Bitfocus Companion integration
-- **Startup** - Application startup behavior
+- **TV Manager** - Cloud rundown integration
+- **Channel Graphics** - Bug and ID overlays with autoplay options
 - **About** - Version and license information
 
 ## Keyboard Shortcuts
@@ -36,6 +37,8 @@ Recommended settings for live broadcast:
 - **Version Channel:** Normal (stable releases only)
 - **Log Level:** Info or Warn
 - **Notifications:** Enabled (to catch critical errors)
+- **Channel Graphics autoplay:** Enable only if the bug or ID should appear immediately on launch
+- **Companion pairing:** Pair and label each control surface per device instead of sharing credentials
 
 ### Development/Testing
 
@@ -45,6 +48,7 @@ Recommended settings for development:
 - **Auto-Update:** Enabled
 - **Log Level:** Debug
 - **Companion:** Enabled (for testing control surfaces)
+- **Layouts:** Save separate presets for development, rehearsal, and production views
 
 ### Multi-User Environments
 
@@ -54,6 +58,8 @@ When multiple operators use 7CG:
 - Use descriptive channel custom names
 - Standardize block color schemes across installations
 - Keep language setting consistent across team
+- Save named [layout presets](./layouts.md) for each operator role
+- Give each Companion device its own paired session and nickname
 
 ## Technical Details
 
@@ -74,9 +80,18 @@ When multiple operators use 7CG:
 Preferences use Electron's IPC (Inter-Process Communication):
 
 - Renderer process (UI) communicates with main process
-- Settings changes trigger immediate saves
+- Many settings save immediately as you change them
 - Real-time status updates for connection state
+- Companion pairing and layout preset changes update live across the app menu and UI
 
 ### Database Settings
 
 Some settings (channels, custom data) are stored in the SQLite database separate from preferences.
+
+## Recommended Reading
+
+- [Connection](./connection.md)
+- [Interface](./interface.md)
+- [Layouts](./layouts.md)
+- [Companion Integration](./companion.md)
+- [Channel Graphics](./channel-graphics.md)

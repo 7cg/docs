@@ -15,28 +15,28 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/teardown.svg').default,
     description: (
       <>
-        Plan and execute broadcast shows with powerful rundown sequences.
-        Control media playback, lower thirds, graphics, and automation with precision timing.
+        Plan and execute shows with a rundown built for live operation.
+        Trigger the current item, target specific items from Companion, and export supported entries to video.
       </>
     ),
   },
   {
-    title: 'Rich Content Display',
+    title: 'Flexible Operator Workspaces',
     Svg: require('@site/static/img/content.svg').default,
     description: (
       <>
-        Display Bible verses and song lyrics with multi-language support.
-        Integrated hymnal system and scripture database for worship services and productions.
+        Rearrange modules into task-focused layouts, hide what an operator does not need,
+        and save named presets for different productions or volunteer roles.
       </>
     ),
   },
   {
-    title: 'CasparCG Integration',
+    title: 'Companion and CasparCG Control',
     Svg: require('@site/static/img/media-player.svg').default,
     description: (
       <>
-        Full control over CasparCG graphics servers with support for transitions,
-        channel routing, and GDD-compliant templates with internationalization.
+        Control CasparCG with channel-aware graphics, paired Companion devices,
+        and broadcast-focused template workflows for live productions.
       </>
     ),
   },

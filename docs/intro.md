@@ -18,7 +18,7 @@ sidebar_position: 1
 ## Key Features
 
 ### Rundown Management
-Plan and execute your entire show with precision. The rundown system lets you create sequences of blocks - from video playback to lower thirds to Bible verses - and execute them with keyboard shortcuts, automation, or companion device control.
+Plan and execute your entire show with precision. The rundown system lets you create sequences of blocks, execute the current selection, target specific items from Companion, and export supported rundown entries to video.
 
 ### Lower Thirds & Graphics
 Display professional lower thirds with names, titles, and custom graphics. Full support for CasparCG templates with transitions, animations, and GDD-compliant designs.
@@ -44,6 +44,12 @@ Control video, image, and audio playback with:
 - Timing and delay controls
 - Preview and program output management
 
+### Flexible Operator Workspaces
+Customize the workspace with movable modules, resizable columns, hidden modules, and named layout presets for different operators, productions, or venues.
+
+### Companion Pairing & Discovery
+Pair Bitfocus Companion devices with short-lived PIN codes, manage each control surface independently, and take advantage of local-network discovery where supported.
+
 ### Multi-Language Support
 Full interface localization in English, Portuguese, and Spanish, with support for multi-language content display.
 
@@ -61,11 +67,15 @@ Control graphics across multiple CasparCG channels for different outputs (progra
 ### Automated Sequences
 Create automated block sequences with timing and transitions for hands-free execution during critical moments.
 
+### Role-Based Operation
+Build different layouts for graphics operators, lyrics operators, or technical directors so each user sees the right set of tools for the job.
+
 ## Getting Started
 
 Ready to dive in? Check out the following guides:
 
-- **Installation Guide**: Download and install 7CG
-- **CasparCG Setup**: Connect 7CG to your CasparCG server
-- **First Rundown**: Create your first rundown and add blocks
-- **Template Configuration**: Set up graphics templates for your production
+- **[Quick Start](./quickstart.md)**: Install 7CG and complete the first-run wizard
+- **[Configuration](./configuration/index.md)**: Connect to CasparCG and configure the app for production
+- **[Companion Integration](./configuration/companion.md)**: Pair devices and set up control-surface workflows
+- **[Layouts](./configuration/layouts.md)**: Build operator-specific workspaces
+- **[Modules Overview](./modules/index.md)**: Learn how the workspace and rundown fit together

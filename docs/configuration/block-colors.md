@@ -30,7 +30,7 @@ You can customize colors for all available block types:
 - Bible
 - Lyrics
 - QR Code
-- Crew
+- Credits
 - Ticker
 - Channel Graphics
 - Emergency

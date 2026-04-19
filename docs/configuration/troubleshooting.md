@@ -31,9 +31,35 @@ Common issues and solutions for 7CG configuration.
 
 1. Verify Companion server is enabled in 7CG
 2. Check that WebSocket port (default 8099) is not blocked by firewall
-3. Ensure Companion is configured with correct hostname/IP and port
-4. Try disabling and re-enabling the Companion server
-5. Check for port conflicts with other applications
+3. Ensure Companion is configured with the correct hostname/IP and port if you are not using discovery
+4. If you are pairing with a PIN, make sure the pairing window has not expired
+5. Start a new pairing window if the current PIN has timed out or hit the failed-attempt limit
+6. Revoke and re-pair a device if its saved session appears stale
+7. Try disabling and re-enabling the Companion server
+8. Check for port conflicts with other applications
+
+### Companion Discovery Not Working
+
+1. Confirm the Companion server is running
+2. Ensure both machines are on the same local network
+3. Check whether your network blocks mDNS or multicast traffic
+4. Fall back to manual IP/host and port entry if discovery is unavailable
+
+## Export Issues
+
+### Video Export Fails or Produces No File
+
+1. Confirm the rundown item supports export
+2. Ensure the filename ends with `.mov`
+3. Check that CasparCG can start and stop the recorder cleanly
+4. Keep the export dialog open until recording completes or you intentionally stop it
+5. Review logs if you see a recording start or recording stop failure
+
+### Export Was Started by Mistake
+
+1. Use the **Stop** button in the export dialog
+2. Wait for 7CG to cancel the export and tear down the recorder cleanly
+3. Retry the export with the correct filename, duration, or target item
 
 ## Settings Issues
 

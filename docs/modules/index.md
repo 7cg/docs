@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Modules Overview
 
-7CG is built around a modular architecture where each module specializes in a specific type of broadcast content. Modules provide intuitive interfaces for managing media, graphics, scripture, lyrics, and more.
+7CG is built around a modular workspace. Each module specializes in a specific part of the production workflow, and the layout system lets you arrange those modules to match your operator role.
 
-## Available Modules
+## Main Workspace Modules
 
 ### Media Module
 **Video, Audio, and Image Playback**
@@ -20,7 +20,7 @@ The Media module is your central hub for playing video files, audio tracks, and 
 - Still image display
 - Motion graphics
 
-[Learn more about the Media Module →](./media)
+[Learn more about the Media Module →](./media.md)
 
 ### Lower Thirds Module
 **Name and Title Graphics**
@@ -34,6 +34,8 @@ Display professional lower third graphics with names, titles, and custom text. S
 - Panel discussions
 - News segments
 
+[Learn more about the Lower Thirds Module →](./lower-thirds.md)
+
 ### Bible Module
 **Scripture Display**
 
@@ -44,6 +46,8 @@ Search, browse, and display Bible verses with multiple translation support. Inte
 - Sermon verse references
 - Bible study sessions
 - Scripture memorization displays
+
+[Learn more about the Bible Module →](./bible.md)
 
 ### Lyrics Module
 **Song and Hymn Display**
@@ -56,39 +60,32 @@ Display song lyrics and hymns with verse-by-verse or multi-verse layouts. Integr
 - Hymn display
 - Special music performances
 
+[Learn more about the Lyrics Module →](./lyrics.md)
+
+### Channel Graphics Module
+**Bug and ID Overlay Control**
+
+Configure and monitor always-available bug and ID overlays for a channel.
+
+**Use Cases:**
+- Permanent live bug
+- Station ID
+- Program branding overlays
+
+[Learn more about the Channel Graphics Module →](./channel-graphics.md)
+
 ### Credits Module
-**Rolling Credits and Staff Lists**
+**Production Credits and Acknowledgments**
 
-Create scrolling or static credit sequences for acknowledging team members, sponsors, and contributors.
+Prepare and launch credits-style graphics for acknowledgments, team listings, and end rolls.
 
 **Use Cases:**
-- End-of-show credits
-- Staff acknowledgments
-- Sponsor recognition
 - Production team credits
-
-### QR Code Module
-**Dynamic QR Code Generation**
-
-Generate QR codes on-the-fly for links, text, and resources. Display them on screen for audience interaction.
-
-**Use Cases:**
-- Event registration links
-- Donation pages
-- Social media links
-- Resource downloads
-- Contact information
-
-### Crew Module
-**Crew and Staff Graphics**
-
-Display crew member names, roles, and photos during productions.
-
-**Use Cases:**
-- Production team identification
 - Behind-the-scenes segments
 - Staff appreciation
 - Team introductions
+
+[Learn more about the Credits Module →](./credits.md)
 
 ### Ticker Module
 **Scrolling Text Tickers**
@@ -102,17 +99,41 @@ Create scrolling text messages, announcements, and information bars.
 - Emergency alerts
 - Continuous information display
 
-### Emergency Module
-**Emergency Alert System**
+[Learn more about the Ticker Module →](./ticker.md)
 
-Quickly display emergency messages and alerts with high visibility and priority.
+### Other Templates Module
 
-**Use Cases:**
-- Emergency notifications
-- Weather alerts
-- Facility announcements
-- Critical information
-- Safety messages
+Provides access to additional template-driven graphics outside the main lower-thirds workflow.
+
+[Learn more about the Other Templates Module →](./other-templates.md)
+
+### Layers Overview Module
+
+Shows active layers and current on-air occupancy information, which is helpful when troubleshooting conflicts or understanding what CasparCG is currently playing.
+
+[Learn more about the Layers Overview Module →](./layers-overview.md)
+
+### Rundown Module
+**Planning, Triggering, and Export**
+
+The Rundown module is the operational center of 7CG. It lets you:
+
+- Organize show content into executable items
+- Trigger the selected item or a specific item from Companion
+- Track current and next position
+- Export supported items as video
+
+[Learn more about the Rundown Module →](./rundown.md)
+
+## Canvas Modules vs. Block Types
+
+Not every user-facing feature is a standalone top-level module in the canvas.
+
+For example:
+
+- **QR Code** and **Credits** are important runnable block types
+- **Bible** and **Lyrics** are both canvas modules and rundown block types
+- **Rundown** is where many block-oriented actions are created, edited, and executed
 
 ## Module Architecture
 
@@ -124,28 +145,18 @@ All 7CG modules share common architectural features:
 - Modules can be collapsed/expanded to save screen space
 - Work on multiple modules simultaneously
 
-**Add to Rundown**
-- All modules support adding content to rundown
-- Pre-configure settings before adding
+**Layout-Aware**
+- Modules can be moved between columns
+- Modules can be hidden or restored
+- Entire layouts can be saved as presets
 
 **Real-time Updates**
 - Changes reflect immediately in CasparCG output
-- No compilation or export required
+- Operational state can also be broadcast to Companion for feedback and control
 
 **Template Integration**
 - Works with GDD-compliant CasparCG templates
 - Supports custom graphics designs
-
-### Module vs. Block Types
-
-**Modules** are UI sections in 7CG where you configure and trigger content.
-
-**Block Types** are rundown entries that can be executed during a show.
-
-Most modules create **Command Blocks** when content is added to the rundown. For example:
-- Media Module → Creates a Command Block with `media/play` command
-- Lower Third Module → Creates a Command Block with `cg/play` command
-- Bible Module → Creates a Command Block with template data
 
 ## Workflow Integration
 
@@ -215,7 +226,7 @@ Disable unused modules to simplify the interface for operators who only need spe
 
 ### Template Customization
 
-All graphics modules (Lower Thirds, Bible, Lyrics, etc.) work with CasparCG templates. Customize templates to match your branding:
+Graphics modules and many rundown block types work with CasparCG templates. Customize templates to match your branding:
 
 - Colors and fonts
 - Logos and branding
@@ -223,6 +234,14 @@ All graphics modules (Lower Thirds, Bible, Lyrics, etc.) work with CasparCG temp
 - Layout and positioning
 
 See the **Template Development Guide** for creating custom templates.
+
+### Layout Customization
+
+Use [Layouts](../configuration/layouts.md) to:
+
+- Rearrange modules into columns
+- Hide modules temporarily
+- Save named presets for different operators or productions
 
 ### Block Color Customization
 
@@ -239,11 +258,12 @@ Set light and dark theme colors for each block type to visually organize your ru
 **Lightweight Modules:**
 - Bible (database queries)
 - Lyrics (database queries)
-- QR Code (generation only)
+- Layers overview
 
 **Resource-Intensive Modules:**
 - Media (thumbnail generation, large file lists)
 - Recorder (real-time encoding)
+- Video export from rundown
 
 ### Optimization Tips
 
@@ -251,15 +271,6 @@ Set light and dark theme colors for each block type to visually organize your ru
 2. **Efficient Searching** - Use specific search terms
 3. **Pre-configure Settings** - Set defaults to reduce clicks
 4. **Organize Content** - Use folders and naming conventions
-
-## Module Development
-
-7CG's modular architecture allows for extensibility. Future modules can be added to support:
-
-- Custom graphics packages
-- Social media integration
-- Automation systems
-- Third-party service integration
 
 :::note
 Module development requires TypeScript/React knowledge and understanding of 7CG's plugin architecture. See the **Developer Guide** for details.
@@ -283,4 +294,4 @@ For module-specific help:
 - Build your first rundown with multiple modules
 - Customize templates and colors
 
-Ready to dive deeper? Start with the [Media Module](./media) to master professional media playback.
+Ready to dive deeper? Start with the [Media Module](./media.md) to master professional media playback.

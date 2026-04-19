@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Interface
 
-Customize the visual appearance and language of the application.
+Customize the visual appearance and the modules that operators see in the main workspace.
 
 ## Theme
 
@@ -34,18 +34,39 @@ Language changes apply immediately to all interface elements, including:
 
 ## Modules
 
-Control visibility of specific modules and features (currently showing as enabled):
+Control visibility of specific modules and features:
 
 - **Media** - Video, image, and audio playback
 - **Lyrics** - Song lyrics and hymnal system
 - **Bible** - Scripture display
 - **Lower Thirds** - Name and title graphics
 - **QR Code** - QR code generator blocks
-- **Crew** - Crew/staff graphics
+- **Credits** - Production credits and acknowledgments
 - **Ticker** - Scrolling text ticker
 - **Channel Graphics** - Channel-specific graphics
 - **Emergency** - Emergency alert system
 
-:::note
-Module visibility controls are planned for future implementation. Currently all modules are enabled by default.
-:::
+Module visibility changes apply immediately and are useful for simplifying the interface for a given operator or event.
+
+## How Interface Visibility Relates to Layouts
+
+Interface visibility and layout customization are related, but they are not the same thing:
+
+- **Interface → Modules** controls whether a module is available at all
+- **Layouts** controls where visible modules are placed, hidden temporarily, or grouped into saved presets
+
+If you need to rearrange columns, hide modules temporarily, or save role-specific workspaces, see [Layouts](./layouts.md).
+
+## Operator Recommendations
+
+Some common setups:
+
+- **Lyrics operator** - Keep Lyrics, Bible, Rundown, and Media visible
+- **Graphics operator** - Keep Lower Thirds, Channel Graphics, Credits, and Rundown visible
+- **Technical director** - Keep most modules visible and use layout presets for different show phases
+
+## Notes
+
+- Theme changes apply across the application
+- Language changes are immediate
+- Module visibility is stored per installation and persists across restarts

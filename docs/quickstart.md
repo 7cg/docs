@@ -30,23 +30,32 @@ Choose your preferred interface language:
 - Português
 - Español
 
-Your selection will be applied immediately and will pre-select a matching Bible translation.
+Your selection is applied immediately and is used to pre-filter the default Bible translation list later in the wizard.
 
 <!-- Screenshot: Language selection screen -->
 ![Language selection screen](./assets/quickstart/wizard-2.png)
 
-### 3. Theme Selection
+### 3. CasparCG Connection
+
+Configure the CasparCG server connection used by 7CG:
+
+- **Server IP / Hostname** - For example `127.0.0.1`, `localhost`, or the hostname of your CasparCG machine
+- **Server Port** - AMCP port, normally `5250`
+- **Test Connection** - Verifies the server is reachable before continuing
+
+If you are not ready to connect yet, you can skip this step and configure it later in **Preferences → Connection**.
+
+<!-- Screenshot: Theme selection screen -->
+![Theme selection screen](./assets/quickstart/wizard-3.png)
+
+### 4. Theme Selection
 
 Select your preferred visual theme:
 - **Light** - Light color scheme
 - **Dark** - Dark color scheme
 - **System** - Follows your operating system theme
 
-<!-- Screenshot: Theme selection screen -->
-![Theme selection screen](./assets/quickstart/wizard-3.png)
-
-
-### 4. Bible & Songbook
+### 5. Bible & Songbook
 
 Configure your default content sources:
 
@@ -56,43 +65,63 @@ Configure your default content sources:
 <!-- Screenshot: Bible and Songbook selection screen -->
 ![Defaults screen](./assets/quickstart/wizard-4.png)
 
-### 5. Notifications
+### 6. Other Preferences
 
-Enable or disable desktop notifications to stay informed about:
-- Update availability
-- Import completions
-- System alerts
+The final wizard step captures a few operational defaults:
 
-<!-- Screenshot: Notifications preferences screen -->
-![Defaults screen](./assets/quickstart/wizard-5.png)
+- **Notifications** - Enable desktop notifications for updates, imports, and important status messages
+- **Auto-play channel bug on startup** - Starts your bug overlay automatically when 7CG launches
+- **Auto-play channel ID on startup** - Starts your channel ID overlay automatically when 7CG launches
 
-## Connecting to CasparCG
+Those startup overlays are configured in detail later in **Preferences → Channel Graphics**.
 
-After completing the wizard, you'll be directed to the connection settings:
+<!-- Screenshot: Other preferences screen -->
+![Other preferences screen](./assets/quickstart/wizard-5.png)
 
-![Connection settings](./assets/server-connection/start.png)
+## After the Wizard
 
+When setup finishes, 7CG opens the main application and you can refine your preferences from the settings panel:
 
-1. Open **Preferences** (automatically opens after wizard)
-2. Navigate to the **Connection** tab
-3. Enter your CasparCG Server details:
-   - Host address (e.g., `localhost` or `192.168.1.100`)
-   - Port (default: `5250`)
-4. Click **Connect** to verify
-5. You can check if your channels were properly brought in from the server on the **Channels** tab.
+- **Connection** - CasparCG host, AMCP port, OSC port
+- **Channels** - Discover and label CasparCG channels
+- **Interface** - Theme, language, and module visibility
+- **Companion** - Enable the server and pair devices with a PIN
+- **Channel Graphics** - Configure bug and ID overlays, channel/layer targets, and autoplay
+- **TV Manager** - Cloud rundown integration
+
+## Connecting to CasparCG Later
+
+If you skipped connection testing during the wizard:
+
+1. Open **Preferences**
+2. Navigate to **Connection**
+3. Enter your CasparCG server details:
+   - Host address, such as `localhost` or `192.168.1.100`
+   - Port, normally `5250`
+4. Click **Connect**
+5. Open **Channels** to confirm 7CG can discover and label the server channels correctly
 
 See the [Connection Configuration](./configuration/connection.md) guide for detailed setup instructions.
+
+## Optional Next Setup Tasks
+
+Before your first live production, it is worth checking three areas:
+
+- [Channel Graphics](./configuration/channel-graphics.md) to configure startup bug and ID overlays
+- [Companion Integration](./configuration/companion.md) to pair Stream Deck or Companion devices
+- [Layouts](./configuration/layouts.md) to tailor the workspace for each operator or production type
 
 ## Creating Your First Rundown
 
 Once connected to CasparCG:
 
-1. Click **New Rundown** in the main window
-2. Add blocks by clicking the **+** button or right-clicking in the rundown
-3. Configure block content and CasparCG settings
-4. Click a block to select it, then press **Play** to execute
+1. Open or create a rundown in the **Rundown** module
+2. Add blocks from the modules or from the rundown creation actions
+3. Configure content and routing settings
+4. Select an item and press **Play** to execute it
+5. Use **Stop** when the block type supports stopping or clearing on-air output
 
-For more details, see the [Configuration](./configuration/index.md) section.
+For more details, see the [Rundown Module](./modules/rundown.md) and [Configuration](./configuration/index.md) sections.
 
 ## Next Steps
 
