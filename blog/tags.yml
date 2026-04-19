@@ -1,3 +1,13 @@
+release:
+  label: Release
+  permalink: /release
+  description: Release notes and changelogs
+
+features:
+  label: Features
+  permalink: /features
+  description: Feature announcements
+
 facebook:
   label: Facebook
   permalink: /facebook
