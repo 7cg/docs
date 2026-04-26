@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Actual",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Template Development": {
+    "message": "Desarrollo de Plantillas",
+    "description": "The label for category 'Template Development' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Configuration": {
+    "message": "Configuración",
+    "description": "The label for category 'Configuration' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Configuration.link.generated-index.description": {
+    "message": "Configura 7CG para tu entorno de transmisión. Aprende a conectarte a CasparCG, gestionar canales, personalizar la apariencia e integrar con superficies de control.",
+    "description": "The generated-index page description for category 'Configuration' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Modules": {
+    "message": "Módulos",
+    "description": "The label for category 'Modules' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Modules.link.generated-index.description": {
+    "message": "Explora los módulos de 7CG para reproducción de medios, gráficos, visualización de Escrituras y más. Cada módulo está diseñado para flujos de producción profesionales de transmisión.",
+    "description": "The generated-index page description for category 'Modules' in sidebar 'tutorialSidebar'"
+  }
+}

@@ -6,6 +6,8 @@ sidebar_position: 5
 
 The **Channel Graphics** module is 7CG's live control surface for persistent channel overlays such as the on-air **Bug** and **ID** graphics.
 
+![Bug and ID toggles activated, with the resulting layers visible in the Active Layers module below](../assets/modules/channel-graphics-on.png)
+
 It combines:
 
 - Quick live toggles for Bug and ID overlays

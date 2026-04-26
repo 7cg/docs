@@ -61,6 +61,16 @@ Common issues and solutions for 7CG configuration.
 2. Wait for 7CG to cancel the export and tear down the recorder cleanly
 3. Retry the export with the correct filename, duration, or target item
 
+## Application Errors
+
+### Recoverable Error Screen
+
+If something goes wrong inside the renderer, 7CG no longer leaves you with a blank window. Instead, a friendly error screen is shown with a **Try again** button that reloads the affected view without restarting the whole app. If the error keeps recurring, capture the message and follow [Getting Help](#getting-help) below.
+
+### In-App Notifications
+
+System messages (errors, warnings, status changes) appear inside the app as toast notifications rather than native OS pop-ups. Toasts stack in a corner of the window and dismiss automatically — older messages stay visible briefly so you can read them in order.
+
 ## Settings Issues
 
 ### Settings Not Saving

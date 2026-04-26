@@ -6,6 +6,8 @@ sidebar_position: 7
 
 Configure the built-in Companion server for integration with **Bitfocus Companion** and compatible control surfaces.
 
+![Companion preferences tab with WebSocket port, Pair button, and paired-devices list](../assets/preferences/companion.png)
+
 Recent versions of 7CG use **PIN pairing with per-device sessions** instead of a single shared token. This makes it easier to revoke one device without breaking every other controller.
 
 ## Server Status
@@ -38,6 +40,8 @@ When running, displays: "Listening on port [port number]"
 6. Optionally rename the paired device in 7CG so it is easy to identify later
 
 Pairing windows expire automatically after about two minutes and are invalidated after too many wrong PIN attempts.
+
+![PIN pairing dialog showing a 6-digit code](../assets/companion/pin-pairing.png)
 
 ## Paired Devices
 

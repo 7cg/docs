@@ -6,6 +6,8 @@ sidebar_position: 5
 
 Customize the visual appearance of rundown block types with separate color schemes for light and dark themes.
 
+![Block Colors preferences tab with one row per block type and side-by-side Light and Dark swatches](../assets/preferences/colours.png)
+
 ## Color Customization
 
 Each block type has four customizable color properties:

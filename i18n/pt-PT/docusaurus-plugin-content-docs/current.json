@@ -1,34 +1,26 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Atual",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Template Development": {
-    "message": "Template Development",
+    "message": "Desenvolvimento de Templates",
     "description": "The label for category 'Template Development' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Configuration": {
-    "message": "Configuration",
+    "message": "Configuração",
     "description": "The label for category 'Configuration' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Configuration.link.generated-index.description": {
-    "message": "Configure 7CG for your broadcast environment. Learn how to connect to CasparCG, manage channels, customize appearance, and integrate with control surfaces.",
+    "message": "Configure o 7CG para o seu ambiente de transmissão. Saiba como ligar-se ao CasparCG, gerir canais, personalizar a aparência e integrar com superfícies de controlo.",
     "description": "The generated-index page description for category 'Configuration' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Modules": {
-    "message": "Modules",
+    "message": "Módulos",
     "description": "The label for category 'Modules' in sidebar 'tutorialSidebar'"
   },
   "sidebar.tutorialSidebar.category.Modules.link.generated-index.description": {
-    "message": "Explore 7CG's powerful modules for media playback, graphics, scripture display, and more. Each module is designed for professional broadcast production workflows.",
+    "message": "Explore os módulos do 7CG para reprodução de media, gráficos, apresentação de Escrituras e muito mais. Cada módulo foi concebido para fluxos de produção profissionais de transmissão.",
     "description": "The generated-index page description for category 'Modules' in sidebar 'tutorialSidebar'"
-  },
-  "sidebar.tutorialSidebar.category.superpowers": {
-    "message": "superpowers",
-    "description": "The label for category 'superpowers' in sidebar 'tutorialSidebar'"
-  },
-  "sidebar.tutorialSidebar.category.specs": {
-    "message": "specs",
-    "description": "The label for category 'specs' in sidebar 'tutorialSidebar'"
   }
 }

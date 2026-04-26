@@ -6,6 +6,8 @@ sidebar_position: 3
 
 Manage CasparCG channel configuration and default channel assignments.
 
+![Channels preferences tab](../assets/preferences/channels.png)
+
 ## Default Channel Assignments
 
 Configure which channels to use for different outputs:

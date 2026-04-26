@@ -89,7 +89,7 @@ That entry stores:
 - Delay and duration values
 - Auto-stop behavior when duration is enabled
 
-When shown in the rundown, 7CG can derive a usable label from the configured lower-third content, which helps operators recognize speaker graphics quickly even if the item was not manually renamed.
+When shown in the rundown, lower-third blocks **name themselves automatically** based on their first field (with a second line where it makes sense), so operators recognize speaker graphics at a glance without having to rename the item manually. Block colors have also been tuned for better contrast against the rundown background.
 
 Lowerthird rundown blocks support the normal operational workflow:
 

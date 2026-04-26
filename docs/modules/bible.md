@@ -45,6 +45,8 @@ If the selected template exposes configurable GDD properties, the module shows a
 
 This lets operators override supported template fields before going on air. Those custom values are carried into playback and can also be stored with a rundown item.
 
+Bible **rundown blocks** also expose template properties **per block** through their edit dialog, so a single passage in the show can use different template settings (e.g. a different background or layout) without changing the module-wide defaults.
+
 ### Bible Version Selector
 
 The **Version** combobox shows the available Bible translations filtered by the languages enabled in Bible settings.

@@ -6,6 +6,8 @@ sidebar_position: 8
 
 The **Channel Graphics** tab configures persistent channel overlays such as your bug and station or program ID.
 
+![Channel Graphics preferences tab](../assets/preferences/channel-graphics.png)
+
 These settings replace the older idea of a separate "Startup" page. The startup-related overlay options now live here and in the first-run wizard.
 
 ## Available Graphic Types

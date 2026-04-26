@@ -28,6 +28,8 @@ The Layers Overview module allows you to:
 
 This module is intentionally diagnostic. It does not launch, stop, or edit content directly.
 
+The same layers view is also embedded inside the rundown block **Advanced** dialog, so you can spot potential layer conflicts without leaving the block you're editing.
+
 ## Interface Components
 
 ### Channel Groups

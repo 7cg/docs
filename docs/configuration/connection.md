@@ -6,6 +6,8 @@ sidebar_position: 2
 
 Configure your connection to the CasparCG server and OSC settings.
 
+![Connection preferences with Server connection and OSC sections](../assets/preferences/connection.png)
+
 ## Server Connection
 
 **Server Address**
@@ -29,6 +31,12 @@ The connection panel displays real-time status:
 - **Disconnected** (Red) - Not connected to server
 - **Reconnecting** (Yellow) - Attempting to establish connection
 - **Error** (Red) - Connection failed with error
+
+Status labels include the server address you're connected to (e.g. `Connected to CG:5250`), so it's clear at a glance which server is active.
+
+### Global connection stripe
+
+While the app is connecting or reconnecting, an animated stripe appears at the top of the screen as a global indicator — visible from any view, not just the Connection panel. The stripe disappears once the connection is healthy.
 
 **Actions:**
 - **Connect** - Establish connection with current settings

@@ -8,6 +8,8 @@ The **Rundown** module is where you organize and execute the sequence of items f
 
 It is also the source of several newer workflows in `7cg-ng`, including Companion item targeting and video export.
 
+![Rundown column populated with separators, Bible passages, and a lower-third block](../assets/workspace/rundown-populated.png)
+
 ## What the Rundown Does
 
 The rundown lets you:
@@ -28,6 +30,51 @@ The rundown lets you:
 4. Execute it from 7CG or Companion
 5. Stop or clear it when appropriate
 6. Continue to the next item
+
+## Editing
+
+![Rundown column in layout edit mode with drag handles and a quick-action toolbar](../assets/rundown/edit-mode-populated.png)
+
+### Undo and Redo
+
+Rundown changes — adding, removing, reordering, or editing blocks — are tracked in an undo history.
+
+- **Undo:** `Ctrl+Z` (`Cmd+Z` on macOS)
+- **Redo:** `Ctrl+Shift+Z`
+
+### Per-Block Transitions
+
+Each block can use its own transition type and duration, configured from the block's edit dialog. Transition icons and labels are translated, so operators see the same names in the language they've chosen.
+
+If a block has no transition override, the channel's default transition is used.
+
+![Transition settings dialog with Fade in / Fade out toggles and a Show advanced settings button](../assets/rundown/advanced-transitions.png)
+
+### Per-Block Edit Dialogs
+
+Several block types now have dedicated edit dialogs:
+
+- **Hymn** blocks expose a per-block "lines per display" override so a single hymn can break differently from the global Lyrics setting (see also [Lyrics module](./lyrics.md)).
+
+![Hymn block edit dialog with per-block "lines per display" override](../assets/rundown/hymn-block-edit.png)
+- **Command** blocks have their own edit dialog with media handling, so command-driven media files are picked and previewed in the same place as the command itself.
+- **Lower-third** blocks get a focused edit dialog for the on-air name and subtitle fields, with an Advanced section for transition and routing tweaks.
+- **Bible** blocks let you set template properties per block, overriding the module-wide defaults for that one moment in the rundown (see also [Bible module](./bible.md)).
+- **Separator** blocks edit a single Title field — they're visual section markers in the rundown, not playback blocks.
+
+![Bible block edit dialog with template property overrides](../assets/rundown/bible-block-edit.png)
+
+![Lower-third block edit dialog with Name and Subtitle fields](../assets/rundown/lowerthird-block-edit.png)
+
+![Command block edit dialog with media file picker](../assets/rundown/command-block-edit.png)
+
+![Separator block edit dialog with Title field](../assets/rundown/separator-edit.png)
+
+### Per-Block Actions
+
+Right-click any rundown row to open the context menu — Set Label, Edit, Delete, Duplicate, Export video, and Color are all available per block.
+
+![Rundown context menu with Set Label, Edit, Delete, Duplicate, Export video, and Color options](../assets/rundown/context-menu.png)
 
 ## Companion Integration
 
@@ -68,6 +115,8 @@ This makes it easier to build operator-friendly Companion pages without hard-cod
 ## Export Video
 
 The Rundown module can export supported items as a `.mov` file.
+
+![Video export dialog mid-recording with progress and Stop button](../assets/rundown/video-export.png)
 
 ### Export Workflow
 

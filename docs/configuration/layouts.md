@@ -6,6 +6,8 @@ sidebar_position: 5
 
 7CG includes a customizable workspace so operators can rearrange the main modules to match the production workflow.
 
+![Modular workspace with rundown, lyrics, bible, and channel graphics modules arranged in columns](../assets/workspace/modular-overview.png)
+
 ## What You Can Customize
 
 In layout edit mode you can:
@@ -31,6 +33,12 @@ When edit mode is active, 7CG shows:
 - A floating toolbar with layout actions
 - A hidden-modules rail for temporarily removing modules from the visible workspace
 
+![Edit mode active, dragging a module between columns](../assets/workspace/edit-mode-drag.png)
+
+Modules dragged out of the workspace land in the hidden-modules rail on the side, where they wait until you drag them back in:
+
+![Hidden-modules rail with collapsed modules ready to be dragged back in](../assets/workspace/hidden-rail.png)
+
 ## Saved Layout Presets
 
 Recent versions of 7CG support **named layout presets**.
@@ -48,6 +56,8 @@ You can save the current workspace arrangement from either:
 
 - The layout edit toolbar
 - **View → Layouts** in the application menu
+
+![View → Layouts menu listing saved layout presets](../assets/workspace/layouts-menu.png)
 
 When saving, give the layout a clear name such as:
 

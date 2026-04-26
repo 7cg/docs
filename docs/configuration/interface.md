@@ -6,6 +6,8 @@ sidebar_position: 4
 
 Customize the visual appearance and the modules that operators see in the main workspace.
 
+![Interface preferences tab with theme, language, and module visibility controls](../assets/preferences/interface.png)
+
 ## Theme
 
 Choose your preferred color scheme:
@@ -38,12 +40,14 @@ Control visibility of specific modules and features:
 
 - **Media** - Video, image, and audio playback
 - **Lyrics** - Song lyrics and hymnal system
+- **Hymn** - Dedicated hymn block module
 - **Bible** - Scripture display
 - **Lower Thirds** - Name and title graphics
 - **QR Code** - QR code generator blocks
 - **Credits** - Production credits and acknowledgments
 - **Ticker** - Scrolling text ticker
 - **Channel Graphics** - Channel-specific graphics
+- **Layers** - Live view of CasparCG layers in use
 - **Emergency** - Emergency alert system
 
 Module visibility changes apply immediately and are useful for simplifying the interface for a given operator or event.

@@ -6,6 +6,8 @@ sidebar_position: 6
 
 Configure application behavior, updates, and logging.
 
+![Application preferences tab with notifications, version channel, auto-update, and log level](../assets/preferences/app.png)
+
 ## Notifications
 
 **Enable Notifications**
@@ -54,6 +56,18 @@ Control the verbosity of application logs:
 - **Production:** Use **Info** or **Warn**
 - **Troubleshooting:** Use **Debug** for detailed diagnostics
 - **Development:** Use **Debug**
+
+## About
+
+![About preferences pane showing version, release notes, and resource links](../assets/ui/about-section.png)
+
+The **About** section in App Settings includes:
+
+- A link to the documentation site (this site)
+- A WhatsApp contact for direct support
+- App version and build information
+
+External links from the About section open in your default browser rather than inside the 7CG window.
 
 ## Reset to Defaults
 

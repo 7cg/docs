@@ -116,6 +116,12 @@ This is useful for adapting to:
 - Audience readability requirements
 - Different visual styles for livestream versus in-room display
 
+Individual hymn rundown blocks can override this with a **per-block "lines per display"** value from the hymn block's edit dialog, so a single hymn can break differently from the module-wide setting.
+
+## Bulk Verse Editing
+
+You can edit many verses of a hymn at once instead of opening each verse dialog one by one. Open a hymn for editing and use the bulk-edit dialog to revise multiple verses in a single pass — useful when fixing typos, normalizing casing, or applying the same correction across all stanzas.
+
 ## Keyboard Shortcuts
 
 When lyrics are already on air, the module listens for keyboard navigation:
