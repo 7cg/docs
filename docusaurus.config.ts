@@ -22,10 +22,13 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'jcalado', // Usually your GitHub org/user name.
-  projectName: '7cg-docs', // Usually your repo name.
+  organizationName: '7cg', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  // 'warn' (not 'throw') so partial-translation locales build cleanly:
+  // a translated page can link to an as-yet-untranslated page and Docusaurus
+  // will fall back to the English content for that target.
+  onBrokenLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
