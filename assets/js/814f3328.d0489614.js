@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_7_cg_docs=self.webpackChunk_7_cg_docs||[]).push([["1833"],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"What\'s New in 7CG: 2026 Edition","permalink":"/blog/whats-new-2026","unlisted":false,"date":"2026-04-19T00:00:00.000Z"}]}')}}]);

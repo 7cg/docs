@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.7cg.io/pt-PT/blog</id>
+    <title>7CG Docs Blog</title>
+    <updated>2026-04-19T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.7cg.io/pt-PT/blog"/>
+    <subtitle>7CG Docs Blog</subtitle>
+    <icon>https://docs.7cg.io/pt-PT/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Novidades no 7CG: edição de 2026]]></title>
+        <id>https://docs.7cg.io/pt-PT/blog/whats-new-2026</id>
+        <link href="https://docs.7cg.io/pt-PT/blog/whats-new-2026"/>
+        <updated>2026-04-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Este artigo cobre funcionalidades de uma versão ainda não lançada do 7CG. Os detalhes podem mudar antes da versão final.]]></summary>
+        <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Trabalho em progresso</div><div class="admonitionContent_BuS1"><p>Este artigo cobre funcionalidades de uma versão ainda não lançada do 7CG. Os detalhes podem mudar antes da versão final.</p></div></div>
+<p>Desde o início de 2026 chegaram muitas novidades ao 7CG. Este artigo resume os destaques: um esquema de área de trabalho totalmente personalizável, exportação de vídeo do rundown, uma integração com o Companion refeita, sincronização com o Cloud Rundown e um conjunto considerável de melhorias de polimento e fiabilidade.</p>
+<p><img decoding="async" loading="lazy" alt="Vista geral do novo espaço de trabalho do 7CG, com vários módulos visíveis ao mesmo tempo" src="https://docs.7cg.io/pt-PT/assets/images/overview-layout-6b7574f77b022544630ce63afacd491b.png" width="2536" height="1109" class="img_ev3q"></p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="esquema-personalizável">Esquema personalizável<a href="https://docs.7cg.io/pt-PT/blog/whats-new-2026#esquema-personaliz%C3%A1vel" class="hash-link" aria-label="Link direto para Esquema personalizável" title="Link direto para Esquema personalizável" translate="no">​</a></h2>
+<p>A maior mudança desta versão é um sistema de esquema da área de trabalho completamente novo. A janela principal está agora dividida em colunas redimensionáveis, e cada módulo (Rundown, Lyrics, Bible, Control, Media, Lower Thirds) pode ser arrastado para qualquer posição.</p>
+<p>Para entrar no modo de edição, abra <strong>View → Customize Layout</strong>. A partir daí pode:</p>
+<ul>
+<li class=""><strong>Arrastar módulos</strong> pela pega na barra de título para os reordenar ou mover entre colunas</li>
+<li class=""><strong>Adicionar e remover colunas</strong> com um único clique</li>
+<li class=""><strong>Distribuir de forma uniforme</strong> para ajustar todas as colunas à mesma largura</li>
+<li class=""><strong>Ocultar módulos</strong> de que não precisa. Ficam estacionados numa barra lateral na extremidade e podem ser repostos em qualquer altura</li>
+<li class=""><strong>Guardar predefinições com nome</strong> em <strong>View → Layouts</strong> para alternar entre uma vista para um único operador e uma configuração de vários ecrãs em segundos</li>
+</ul>
+<p>A largura das colunas, a ordem dos módulos e o estado de recolha persistem entre reinícios.</p>
+<p><img decoding="async" loading="lazy" alt="7CG em modo de edição do esquema, com módulos arrastáveis, colunas editáveis e a barra de módulos ocultos" src="https://docs.7cg.io/pt-PT/assets/images/customize-layout-mode-b80d1a986122622381ed7ecd114b2bad.png" width="1710" height="1390" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Predefinições de esquema guardadas no 7CG, incluindo um esquema Media &amp;amp; Rundown pronto a reutilizar" src="https://docs.7cg.io/pt-PT/assets/images/layout-presets-4c75f3802ba0bc112b3da45d18e542f5.png" width="1710" height="1390" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="exportação-de-vídeo-do-rundown">Exportação de vídeo do rundown<a href="https://docs.7cg.io/pt-PT/blog/whats-new-2026#exporta%C3%A7%C3%A3o-de-v%C3%ADdeo-do-rundown" class="hash-link" aria-label="Link direto para Exportação de vídeo do rundown" title="Link direto para Exportação de vídeo do rundown" translate="no">​</a></h2>
+<p>Agora pode exportar um rundown completo como ficheiro de vídeo diretamente a partir do 7CG. O exportador percorre cada bloco, envia-o para o CasparCG, captura a saída e monta o resultado num único ficheiro. Os blocos de Bíblia e hinos percorrem automaticamente todos os seus excertos para que nada fique cortado.</p>
+<p>Um botão <strong>Stop</strong> permite cancelar uma exportação em curso a meio do processo, e todas as mensagens de progresso da exportação passam agora a ser apresentadas como notificações internas da aplicação.</p>
+<p><img decoding="async" loading="lazy" alt="Exportação de vídeo do rundown em curso, com estado da gravação e botão Stop" src="https://docs.7cg.io/pt-PT/assets/images/rundown-video-export-d397a2713b543ee807fc25fcb6568753.png" width="1710" height="1390" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sincronização-com-o-cloud-rundown">Sincronização com o Cloud Rundown<a href="https://docs.7cg.io/pt-PT/blog/whats-new-2026#sincroniza%C3%A7%C3%A3o-com-o-cloud-rundown" class="hash-link" aria-label="Link direto para Sincronização com o Cloud Rundown" title="Link direto para Sincronização com o Cloud Rundown" translate="no">​</a></h2>
+<p>O <strong>Cloud Rundown</strong> é um novo separador de preferências de primeira linha. Quando está ligado a um servidor 7CG Cloud Rundown, o 7CG pode obter uma folha de produção e transformá-la automaticamente num rundown, incluindo um seletor de episódio e uma pré-visualização dos itens antes da importação.</p>
+<p>A opção de menu <strong>Import from Cloud Rundown</strong> é ocultada automaticamente quando a integração está desativada, para que só apareça quando pode realmente ser usada.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reformulação-da-integração-com-o-companion">Reformulação da integração com o Companion<a href="https://docs.7cg.io/pt-PT/blog/whats-new-2026#reformula%C3%A7%C3%A3o-da-integra%C3%A7%C3%A3o-com-o-companion" class="hash-link" aria-label="Link direto para Reformulação da integração com o Companion" title="Link direto para Reformulação da integração com o Companion" translate="no">​</a></h2>
+<p>A integração com o Bitfocus Companion recebeu uma grande atualização:</p>
+<ul>
+<li class=""><strong>Anúncio por mDNS</strong>: o servidor WebSocket anuncia-se agora na rede local para que o plugin do Companion consiga descobrir o 7CG sem introdução manual do IP.</li>
+<li class=""><strong>Emparelhamento por PIN</strong>: em vez de um token de autenticação partilhado no ficheiro de configuração, cada dispositivo Companion passa agora a emparelhar-se com um PIN. As sessões são acompanhadas por dispositivo, por isso revogar um dispositivo não afeta os restantes.</li>
+<li class=""><strong>Execute / Stop por ID</strong>: duas novas ações, <code>rundown:execute-id</code> e <code>rundown:stop-id</code>, permitem apontar a um item específico do rundown através do seu ID. A interface do Companion mostra uma lista pendente preenchida com o rundown em direto, para que escolha sempre a partir do que está realmente carregado.</li>
+<li class=""><strong>Superfície de estado mais ampla</strong>: o estado transmitido ao Companion inclui agora mais dados sobre o rundown e a reprodução, mantendo os rótulos dos botões e o feedback sincronizados em tempo real.</li>
+<li class=""><strong>Ações de cor sólida</strong>: ações parametrizadas permitem ao Companion mudar a cor sólida em emissão sem precisar de uma ação separada por cor.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="gestão-de-layers">Gestão de layers<a href="https://docs.7cg.io/pt-PT/blog/whats-new-2026#gest%C3%A3o-de-layers" class="hash-link" aria-label="Link direto para Gestão de layers" title="Link direto para Gestão de layers" translate="no">​</a></h2>
+<p>Todos os módulos (Media, Bible, Lyrics, Lower Thirds, Credits, QR Code) passam agora a ter uma layer CasparCG predefinida explícita. A caixa de diálogo <strong>Advanced</strong> de cada bloco mostra que layer será usada, e um novo painel de <strong>ocupação de layers</strong> na secção Control dá uma vista em tempo real do que está a ser reproduzido em cada layer, para que seja possível detetar conflitos antes de irem para o ar.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="melhorias-em-bible-e-lyrics">Melhorias em Bible e Lyrics<a href="https://docs.7cg.io/pt-PT/blog/whats-new-2026#melhorias-em-bible-e-lyrics" class="hash-link" aria-label="Link direto para Melhorias em Bible e Lyrics" title="Link direto para Melhorias em Bible e Lyrics" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Pré-visualização de versículos</strong>: ao escolher uma passagem bíblica na caixa de diálogo do bloco, o texto do versículo aparece agora inline para confirmar que a referência está correta antes de a inserir.</li>
+<li class=""><strong>Edição em massa de versículos</strong>: agora é possível editar vários versículos de uma vez no editor de Lyrics, em vez de abrir cada um separadamente.</li>
+<li class=""><strong>Linhas por exibição</strong>: um novo ajuste nos módulos Hymn e Lyrics controla quantas linhas são mostradas no ecrã de cada vez.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="polimento-da-interface">Polimento da interface<a href="https://docs.7cg.io/pt-PT/blog/whats-new-2026#polimento-da-interface" class="hash-link" aria-label="Link direto para Polimento da interface" title="Link direto para Polimento da interface" translate="no">​</a></h2>
+<ul>
+<li class="">Cada cabeçalho de módulo tem agora um <strong>ícone colorido</strong> correspondente ao tipo de conteúdo, tornando mais rápida a orientação num esquema denso.</li>
+<li class="">Uma <strong>faixa superior</strong> ao longo do topo da janela anima-se para indicar o estado da ligação ao CasparCG: verde quando está ligado, âmbar quando está a tentar voltar a ligar.</li>
+<li class="">As notificações da aplicação são agora encaminhadas através de <strong>toasts do Fluent UI</strong> em vez de notificações do sistema, pelo que aparecem dentro da janela e desaparecem automaticamente.</li>
+<li class="">As definições de transição e as caixas de diálogo Advanced foram refinadas: botões só com ícone onde os rótulos eram redundantes e melhor localização em português e inglês.</li>
+</ul>
+<hr>
+<p>Estas funcionalidades continuam em desenvolvimento, e é possível que nem todas cheguem à próxima versão do 7CG. Fique atento: se todos os testes passarem, deverão chegar antes do final de abril.</p>]]></content>
+        <author>
+            <name>Joel Calado</name>
+            <uri>https://jcalado.com</uri>
+        </author>
+        <category label="Lançamentos" term="Lançamentos"/>
+        <category label="Funcionalidades" term="Funcionalidades"/>
+    </entry>
+</feed>

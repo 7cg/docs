@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>7CG Docs Blog</title>
+        <link>https://docs.7cg.io/es/blog</link>
+        <description>7CG Docs Blog</description>
+        <lastBuildDate>Sun, 19 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>es</language>
+        <item>
+            <title><![CDATA[What's New in 7CG: 2026 Edition]]></title>
+            <link>https://docs.7cg.io/es/blog/whats-new-2026</link>
+            <guid>https://docs.7cg.io/es/blog/whats-new-2026</guid>
+            <pubDate>Sun, 19 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[This post covers features in an unreleased version of 7CG. Details may change before the final release.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Work in Progress</div><div class="admonitionContent_BuS1"><p>This post covers features in an unreleased version of 7CG. Details may change before the final release.</p></div></div>
+<p>A lot has landed in 7CG since the start of 2026. This post covers the highlights: a fully customizable workspace layout, rundown video export, a reworked Companion integration, Cloud Rundown sync, and a pile of polish and reliability fixes.</p>
+<p><img decoding="async" loading="lazy" alt="Overview of the new 7CG workspace with multiple modules visible at once" src="https://docs.7cg.io/es/assets/images/overview-layout-6b7574f77b022544630ce63afacd491b.png" width="2536" height="1109" class="img_ev3q"></p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="customizable-layout">Customizable Layout<a href="https://docs.7cg.io/es/blog/whats-new-2026#customizable-layout" class="hash-link" aria-label="Enlace directo al Customizable Layout" title="Enlace directo al Customizable Layout" translate="no">​</a></h2>
+<p>The biggest change in this release is a completely new workspace layout system. The main window is now divided into resizable columns, and every module (Rundown, Lyrics, Bible, Control, Media, Lower Thirds) can be dragged into any position.</p>
+<p>To enter edit mode, open <strong>View → Customize Layout</strong>. From there you can:</p>
+<ul>
+<li class=""><strong>Drag modules</strong> by their title bar handle to reorder or move them between columns</li>
+<li class=""><strong>Add and remove columns</strong> with a single click</li>
+<li class=""><strong>Distribute equally</strong> to snap all columns to the same width</li>
+<li class=""><strong>Hide modules</strong> you don't need. They park in a rail at the edge and can be restored any time</li>
+<li class=""><strong>Save named presets</strong> via <strong>View → Layouts</strong> so you can switch between a single-operator view and a multi-screen setup in seconds</li>
+</ul>
+<p>Column widths, module order, and collapse state all persist across restarts.</p>
+<p><img decoding="async" loading="lazy" alt="7CG in layout edit mode, showing draggable modules, editable columns, and the hidden modules rail" src="https://docs.7cg.io/es/assets/images/customize-layout-mode-b80d1a986122622381ed7ecd114b2bad.png" width="1710" height="1390" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="Saved layout presets in 7CG, with a custom Media &amp;amp; Rundown layout ready to reuse" src="https://docs.7cg.io/es/assets/images/layout-presets-4c75f3802ba0bc112b3da45d18e542f5.png" width="1710" height="1390" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="rundown-video-export">Rundown Video Export<a href="https://docs.7cg.io/es/blog/whats-new-2026#rundown-video-export" class="hash-link" aria-label="Enlace directo al Rundown Video Export" title="Enlace directo al Rundown Video Export" translate="no">​</a></h2>
+<p>You can now export an entire rundown as a video file directly from 7CG. The exporter steps through each block, sends it to CasparCG, captures the output, and assembles the result into a single file. Bible and hymn blocks cycle through all their chunks automatically so nothing gets cut off.</p>
+<p>A <strong>Stop</strong> button lets you cancel a running export mid-way, and all export progress messages are now shown as in-app toast notifications.</p>
+<p><img decoding="async" loading="lazy" alt="Rundown video export in progress, with recording status and a Stop button" src="https://docs.7cg.io/es/assets/images/rundown-video-export-d397a2713b543ee807fc25fcb6568753.png" width="1710" height="1390" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cloud-rundown-sync">Cloud Rundown Sync<a href="https://docs.7cg.io/es/blog/whats-new-2026#cloud-rundown-sync" class="hash-link" aria-label="Enlace directo al Cloud Rundown Sync" title="Enlace directo al Cloud Rundown Sync" translate="no">​</a></h2>
+<p><strong>Cloud Rundown</strong> is a new first-class preferences tab. When connected to a 7CG Cloud Rundown server, 7CG can pull a production sheet and turn it into a rundown automatically, including an episode picker and a preview of the items before you import.</p>
+<p>The <strong>Import from Cloud Rundown</strong> menu item is hidden automatically when the integration is turned off, so it only appears when it's actually usable.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="companion-integration-overhaul">Companion Integration Overhaul<a href="https://docs.7cg.io/es/blog/whats-new-2026#companion-integration-overhaul" class="hash-link" aria-label="Enlace directo al Companion Integration Overhaul" title="Enlace directo al Companion Integration Overhaul" translate="no">​</a></h2>
+<p>The Bitfocus Companion integration received a major upgrade:</p>
+<ul>
+<li class=""><strong>mDNS advertisement</strong>: the WebSocket server now broadcasts itself on the local network so the Companion plugin can discover 7CG without manual IP entry.</li>
+<li class=""><strong>PIN pairing</strong>: instead of a shared auth token in the config file, each Companion device now pairs with a PIN. Sessions are tracked per device, so revoking one device doesn't affect others.</li>
+<li class=""><strong>Execute / Stop by ID</strong>: two new actions, <code>rundown:execute-id</code> and <code>rundown:stop-id</code>, let you target a specific rundown item by its ID. The Companion UI shows a dropdown populated with the live rundown so you always pick from what's actually loaded.</li>
+<li class=""><strong>Broader state surface</strong>: the state broadcast to Companion now includes more rundown and playback data, keeping button labels and feedbacks in sync in real time.</li>
+<li class=""><strong>Solid-color actions</strong>: parameterized actions let Companion change the on-air solid color without needing a separate action per color.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="layer-management">Layer Management<a href="https://docs.7cg.io/es/blog/whats-new-2026#layer-management" class="hash-link" aria-label="Enlace directo al Layer Management" title="Enlace directo al Layer Management" translate="no">​</a></h2>
+<p>Every module (Media, Bible, Lyrics, Lower Thirds, Credits, QR Code) now has an explicit default CasparCG layer. The <strong>Advanced</strong> dialog for each block shows which layer it will use, and a new <strong>layer occupancy</strong> panel in the Control section gives a live view of what is playing on each layer so you can spot conflicts before they happen on air.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="bible--lyrics-improvements">Bible &amp; Lyrics Improvements<a href="https://docs.7cg.io/es/blog/whats-new-2026#bible--lyrics-improvements" class="hash-link" aria-label="Enlace directo al Bible &amp; Lyrics Improvements" title="Enlace directo al Bible &amp; Lyrics Improvements" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Verse preview</strong>: when picking a Bible passage in the block dialog, the verse text now appears inline so you can confirm you have the right reference before inserting it.</li>
+<li class=""><strong>Bulk verse editing</strong>: you can now edit multiple verses at once in the Lyrics editor instead of opening each one separately.</li>
+<li class=""><strong>Lines per display</strong>: a new setting on both Hymn and Lyrics modules controls how many lines are shown on screen at a time.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ui-polish">UI Polish<a href="https://docs.7cg.io/es/blog/whats-new-2026#ui-polish" class="hash-link" aria-label="Enlace directo al UI Polish" title="Enlace directo al UI Polish" translate="no">​</a></h2>
+<ul>
+<li class="">Every module header now has a <strong>colored icon</strong> matching its content type, making it faster to orient yourself in a dense layout.</li>
+<li class="">A <strong>chrome stripe</strong> along the top of the window animates to indicate the CasparCG connection state: green when connected, amber when reconnecting.</li>
+<li class="">App notifications are now routed through <strong>Fluent UI toasts</strong> rather than system notifications, so they appear inside the window and dismiss automatically.</li>
+<li class="">Transition settings and Advanced dialogs have been tightened up: icon-only buttons where labels were redundant, better localization across Portuguese and English.</li>
+</ul>
+<hr>
+<p>These features are still in development, and some of them may not make it into the next 7CG release. Keep your eyes open: if all tests pass, they should arrive before the end of April.</p>]]></content:encoded>
+            <category>Release</category>
+            <category>Features</category>
+        </item>
+    </channel>
+</rss>
