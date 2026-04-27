@@ -2,19 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.7cg.io/blog</id>
     <title>7CG Docs Blog</title>
-    <updated>2026-04-19T00:00:00.000Z</updated>
+    <updated>2026-04-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.7cg.io/blog"/>
     <subtitle>7CG Docs Blog</subtitle>
     <icon>https://docs.7cg.io/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[7CG 2.0.0-beta.19 is out]]></title>
+        <id>https://docs.7cg.io/blog/beta-19-released</id>
+        <link href="https://docs.7cg.io/blog/beta-19-released"/>
+        <updated>2026-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[7CG v2.0.0-beta.19 is out today. If you're already on a 2.x beta, the auto-updater should pull it the next time you launch the app.]]></summary>
+        <content type="html"><![CDATA[<p><strong>7CG v2.0.0-beta.19</strong> is out today. If you're already on a 2.x beta, the auto-updater should pull it the next time you launch the app.</p>
+<p><img decoding="async" loading="lazy" alt="7CG with a populated rundown showing Bible, hymn, lower-third, and command blocks" src="https://docs.7cg.io/assets/images/rundown-populated-ab8f43fb51355cb06f03159f3bea14c6.png" width="1600" height="1000" class="img_ev3q"></p>
+<p>This is the release that brings all the 2026 work together: modular workspace, Companion overhaul, rundown video export, Bible passage preview, and a long tail of polish. It's also the first build going out through the new automated release pipeline, so future betas should land faster.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-in-it">What's in it<a href="https://docs.7cg.io/blog/beta-19-released#whats-in-it" class="hash-link" aria-label="Direct link to What's in it" title="Direct link to What's in it" translate="no">​</a></h2>
+<p>The big-ticket features have been documented separately in <a class="" href="https://docs.7cg.io/blog/whats-new-2026">What's New in 7CG: 2026 Edition</a>, so this post is intentionally short. The headline items:</p>
+<ul>
+<li class=""><strong>Customizable workspace</strong>: drag, resize, hide, and save layout presets from <strong>View → Customize Layout</strong></li>
+<li class=""><strong>Companion 2.0</strong>: PIN pairing, mDNS auto-discovery, per-item Execute/Stop actions, parameterized solid-color actions</li>
+<li class=""><strong>Rundown video export</strong>: export an entire rundown to a video file with a Stop button to cancel mid-export</li>
+<li class=""><strong>Undo / Redo in the rundown</strong>: Ctrl+Z and Ctrl+Shift+Z (Cmd on Mac)</li>
+<li class=""><strong>Bible passage preview</strong>: see verse text inline as you pick a passage</li>
+<li class=""><strong>Layer occupancy view</strong>: spot CasparCG layer conflicts before they hit air</li>
+<li class=""><strong>In-app toast notifications</strong> with proper localization (English, Portuguese, Spanish)</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-it">Getting it<a href="https://docs.7cg.io/blog/beta-19-released#getting-it" class="hash-link" aria-label="Direct link to Getting it" title="Direct link to Getting it" translate="no">​</a></h2>
+<p>If you're already on a 7CG 2.x beta, the auto-updater will pull beta.19 the next time you launch the app. Each update is a complete installer for your platform (Windows <code>.exe</code>, macOS <code>.dmg</code>, or Linux <code>.AppImage</code> / <code>.deb</code> / <code>.snap</code>), so there's nothing else to do once it lands. New to 7CG? Download a first install from <a href="https://7cg.io/" target="_blank" rel="noopener noreferrer" class="">7cg.io</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="known-limitations">Known limitations<a href="https://docs.7cg.io/blog/beta-19-released#known-limitations" class="hash-link" aria-label="Direct link to Known limitations" title="Direct link to Known limitations" translate="no">​</a></h2>
+<p>This is still a <strong>beta</strong>. A few things to keep in mind:</p>
+<ul>
+<li class="">macOS builds are <strong>not notarized</strong> in this release. You'll need to right-click the app and choose <strong>Open</strong> the first time to bypass Gatekeeper.</li>
+<li class="">Windows builds are <strong>not code-signed</strong> yet, so SmartScreen will warn on first launch. Click <strong>More info</strong>, then <strong>Run anyway</strong>.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reporting-bugs">Reporting bugs<a href="https://docs.7cg.io/blog/beta-19-released#reporting-bugs" class="hash-link" aria-label="Direct link to Reporting bugs" title="Direct link to Reporting bugs" translate="no">​</a></h2>
+<p>If something breaks, post in the <a href="https://chat.whatsapp.com/CxrKMAV5zfP2eSSvHi1tA1" target="_blank" rel="noopener noreferrer" class="">7CG WhatsApp group</a> with your OS, the version string from <strong>Help → About</strong>, and the steps to reproduce. The renderer log lives at:</p>
+<ul>
+<li class=""><strong>Windows</strong>: <code>%APPDATA%\7cg\logs\</code></li>
+<li class=""><strong>macOS</strong>: <code>~/Library/Logs/7cg/</code></li>
+<li class=""><strong>Linux</strong>: <code>~/.config/7cg/logs/</code></li>
+</ul>
+<p>Attaching the most recent log file will speed up triage.</p>
+<p>Thanks for testing. This release has been a long time coming, and the next one will be much shorter.</p>]]></content>
+        <author>
+            <name>Joel Calado</name>
+            <uri>https://jcalado.com</uri>
+        </author>
+        <category label="Release" term="Release"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[What's New in 7CG: 2026 Edition]]></title>
         <id>https://docs.7cg.io/blog/whats-new-2026</id>
         <link href="https://docs.7cg.io/blog/whats-new-2026"/>
         <updated>2026-04-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This post covers features in an unreleased version of 7CG. Details may change before the final release.]]></summary>
-        <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Work in Progress</div><div class="admonitionContent_BuS1"><p>This post covers features in an unreleased version of 7CG. Details may change before the final release.</p></div></div>
-<p>A lot has landed in 7CG since the start of 2026. This post covers the highlights: a fully customizable workspace layout, rundown video export, a reworked Companion integration, Cloud Rundown sync, and a pile of polish and reliability fixes.</p>
+        <summary type="html"><![CDATA[The features described here ship in 7CG v2.0.0-beta.19, available now via auto-update. See the release announcement for details.]]></summary>
+        <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Released</div><div class="admonitionContent_BuS1"><p>The features described here ship in 7CG <strong>v2.0.0-beta.19</strong>, available now via auto-update. See the <a class="" href="https://docs.7cg.io/blog/beta-19-released">release announcement</a> for details.</p></div></div>
+<p>A lot has landed in 7CG since the start of 2026. This post covers the highlights: a fully customizable workspace layout, rundown video export, a reworked Companion integration, and a pile of polish and reliability fixes.</p>
 <p><img decoding="async" loading="lazy" alt="Overview of the new 7CG workspace with multiple modules visible at once" src="https://docs.7cg.io/assets/images/overview-layout-6b7574f77b022544630ce63afacd491b.png" width="2536" height="1109" class="img_ev3q"></p>
 <!-- -->
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="customizable-layout">Customizable Layout<a href="https://docs.7cg.io/blog/whats-new-2026#customizable-layout" class="hash-link" aria-label="Direct link to Customizable Layout" title="Direct link to Customizable Layout" translate="no">​</a></h2>
@@ -34,9 +78,6 @@
 <p>You can now export an entire rundown as a video file directly from 7CG. The exporter steps through each block, sends it to CasparCG, captures the output, and assembles the result into a single file. Bible and hymn blocks cycle through all their chunks automatically so nothing gets cut off.</p>
 <p>A <strong>Stop</strong> button lets you cancel a running export mid-way, and all export progress messages are now shown as in-app toast notifications.</p>
 <p><img decoding="async" loading="lazy" alt="Rundown video export in progress, with recording status and a Stop button" src="https://docs.7cg.io/assets/images/rundown-video-export-d397a2713b543ee807fc25fcb6568753.png" width="1710" height="1390" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cloud-rundown-sync">Cloud Rundown Sync<a href="https://docs.7cg.io/blog/whats-new-2026#cloud-rundown-sync" class="hash-link" aria-label="Direct link to Cloud Rundown Sync" title="Direct link to Cloud Rundown Sync" translate="no">​</a></h2>
-<p><strong>Cloud Rundown</strong> is a new first-class preferences tab. When connected to a 7CG Cloud Rundown server, 7CG can pull a production sheet and turn it into a rundown automatically, including an episode picker and a preview of the items before you import.</p>
-<p>The <strong>Import from Cloud Rundown</strong> menu item is hidden automatically when the integration is turned off, so it only appears when it's actually usable.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="companion-integration-overhaul">Companion Integration Overhaul<a href="https://docs.7cg.io/blog/whats-new-2026#companion-integration-overhaul" class="hash-link" aria-label="Direct link to Companion Integration Overhaul" title="Direct link to Companion Integration Overhaul" translate="no">​</a></h2>
 <p>The Bitfocus Companion integration received a major upgrade:</p>
 <ul>
@@ -62,7 +103,7 @@
 <li class="">Transition settings and Advanced dialogs have been tightened up: icon-only buttons where labels were redundant, better localization across Portuguese and English.</li>
 </ul>
 <hr>
-<p>These features are still in development, and some of them may not make it into the next 7CG release. Keep your eyes open: if all tests pass, they should arrive before the end of April.</p>]]></content>
+<p>All of the above ships in <strong>v2.0.0-beta.19</strong>, available now via the in-app auto-updater. If you need a fresh install, get in touch with the team.</p>]]></content>
         <author>
             <name>Joel Calado</name>
             <uri>https://jcalado.com</uri>

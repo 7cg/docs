@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_7_cg_docs=self.webpackChunk_7_cg_docs||[]).push([["4796"],{87(e){e.exports=JSON.parse('{"tags":[{"label":"Release","permalink":"/es/blog/tags/release","description":"Release notes and changelogs","count":1},{"label":"Features","permalink":"/es/blog/tags/features","description":"Feature announcements","count":1}]}')}}]);

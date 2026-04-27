@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_7_cg_docs=self.webpackChunk_7_cg_docs||[]).push([["8416"],{6600(a){a.exports=JSON.parse('{"authors":[{"name":"Joel Calado","title":"7CG Developer","url":"https://jcalado.com","page":{"permalink":"/blog/authors/jcalado"},"socials":{"github":"https://github.com/jcalado"},"imageURL":"https://github.com/jcalado.png","key":"jcalado","count":2}]}')}}]);
