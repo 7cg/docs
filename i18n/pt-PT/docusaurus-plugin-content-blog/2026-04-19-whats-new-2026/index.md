@@ -6,11 +6,11 @@ tags: [release, features]
 date: 2026-04-19
 ---
 
-:::warning[Trabalho em progresso]
-Este artigo cobre funcionalidades de uma versão ainda não lançada do 7CG. Os detalhes podem mudar antes da versão final.
+:::info[Lançado]
+As funcionalidades descritas aqui já estão na versão **v2.0.0-beta.19** do 7CG, disponível agora através do auto-update. Veja o [anúncio do lançamento](/blog/beta-19-released) para mais detalhes.
 :::
 
-Desde o início de 2026 chegaram muitas novidades ao 7CG. Este artigo resume os destaques: um esquema de área de trabalho totalmente personalizável, exportação de vídeo do rundown, uma integração com o Companion refeita, sincronização com o Cloud Rundown e um conjunto considerável de melhorias de polimento e fiabilidade.
+Desde o início de 2026 chegaram muitas novidades ao 7CG. Este artigo resume os destaques: um esquema de área de trabalho totalmente personalizável, exportação de vídeo do rundown, uma integração com o Companion refeita, e um conjunto considerável de melhorias de polimento e fiabilidade.
 
 ![Vista geral do novo espaço de trabalho do 7CG, com vários módulos visíveis ao mesmo tempo](/img/blog/whats-new-2026/overview-layout.png)
 
@@ -42,12 +42,6 @@ Um botão **Stop** permite cancelar uma exportação em curso a meio do processo
 
 ![Exportação de vídeo do rundown em curso, com estado da gravação e botão Stop](/img/blog/whats-new-2026/rundown-video-export.png)
 
-## Sincronização com o Cloud Rundown
-
-O **Cloud Rundown** é um novo separador de preferências de primeira linha. Quando está ligado a um servidor 7CG Cloud Rundown, o 7CG pode obter uma folha de produção e transformá-la automaticamente num rundown, incluindo um seletor de episódio e uma pré-visualização dos itens antes da importação.
-
-A opção de menu **Import from Cloud Rundown** é ocultada automaticamente quando a integração está desativada, para que só apareça quando pode realmente ser usada.
-
 ## Reformulação da integração com o Companion
 
 A integração com o Bitfocus Companion recebeu uma grande atualização:
@@ -77,4 +71,4 @@ Todos os módulos (Media, Bible, Lyrics, Lower Thirds, Credits, QR Code) passam 
 
 ---
 
-Estas funcionalidades continuam em desenvolvimento, e é possível que nem todas cheguem à próxima versão do 7CG. Fique atento: se todos os testes passarem, deverão chegar antes do final de abril.
+Tudo isto já chegou na **v2.0.0-beta.19**, disponível agora através do auto-update na aplicação. Se precisa de uma instalação nova, descarregue em [7cg.io](https://7cg.io).

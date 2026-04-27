@@ -6,11 +6,11 @@ tags: [release, features]
 date: 2026-04-19
 ---
 
-:::warning[Work in Progress]
-This post covers features in an unreleased version of 7CG. Details may change before the final release.
+:::info[Released]
+The features described here ship in 7CG **v2.0.0-beta.19**, available now via auto-update. See the [release announcement](/blog/beta-19-released) for details.
 :::
 
-A lot has landed in 7CG since the start of 2026. This post covers the highlights: a fully customizable workspace layout, rundown video export, a reworked Companion integration, Cloud Rundown sync, and a pile of polish and reliability fixes.
+A lot has landed in 7CG since the start of 2026. This post covers the highlights: a fully customizable workspace layout, rundown video export, a reworked Companion integration, and a pile of polish and reliability fixes.
 
 ![Overview of the new 7CG workspace with multiple modules visible at once](/img/blog/whats-new-2026/overview-layout.png)
 
@@ -42,12 +42,6 @@ A **Stop** button lets you cancel a running export mid-way, and all export progr
 
 ![Rundown video export in progress, with recording status and a Stop button](/img/blog/whats-new-2026/rundown-video-export.png)
 
-## Cloud Rundown Sync
-
-**Cloud Rundown** is a new first-class preferences tab. When connected to a 7CG Cloud Rundown server, 7CG can pull a production sheet and turn it into a rundown automatically, including an episode picker and a preview of the items before you import.
-
-The **Import from Cloud Rundown** menu item is hidden automatically when the integration is turned off, so it only appears when it's actually usable.
-
 ## Companion Integration Overhaul
 
 The Bitfocus Companion integration received a major upgrade:
@@ -77,4 +71,4 @@ Every module (Media, Bible, Lyrics, Lower Thirds, Credits, QR Code) now has an e
 
 ---
 
-These features are still in development, and some of them may not make it into the next 7CG release. Keep your eyes open: if all tests pass, they should arrive before the end of April.
+All of the above ships in **v2.0.0-beta.19**, available now via the in-app auto-updater. If you need a fresh install, get in touch with the team.
