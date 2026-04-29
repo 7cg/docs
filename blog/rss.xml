@@ -4,10 +4,53 @@
         <title>7CG Docs Blog</title>
         <link>https://docs.7cg.io/blog</link>
         <description>7CG Docs Blog</description>
-        <lastBuildDate>Mon, 27 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[7CG 2.0.0-beta.20 is out]]></title>
+            <link>https://docs.7cg.io/blog/beta-20-released</link>
+            <guid>https://docs.7cg.io/blog/beta-20-released</guid>
+            <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[7CG v2.0.0-beta.20 is out today. If you're already on a 2.x beta, the auto-updater should pull it the next time you launch the app.]]></description>
+            <content:encoded><![CDATA[<p><strong>7CG v2.0.0-beta.20</strong> is out today. If you're already on a 2.x beta, the auto-updater should pull it the next time you launch the app.</p>
+<p>This one is about making the rundown easier to read at a glance. You can now colour individual blocks, save a palette of your favourite colours, and every item shows its block-type icon next to the label.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new">What's new<a href="https://docs.7cg.io/blog/beta-20-released#whats-new" class="hash-link" aria-label="Direct link to What's new" title="Direct link to What's new" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Colour any block</strong>: Right-click a rundown item to pick its colour. Light and dark themes get their own values, so colours look right in either mode.</li>
+<li class=""><strong>Saved colours</strong>: Build a palette of named colours in <strong>Preferences → Colours</strong> and reuse them anywhere a colour is picked.</li>
+<li class=""><strong>Block icons in the rundown</strong>: Every item now shows its block-type icon next to the label, so a long rundown is much easier to scan.</li>
+<li class=""><strong>Custom icon and label per item</strong>: Media blocks can override their icon and label on individual entries, handy when one item in a list needs to stand out.</li>
+<li class=""><strong>Release notes match your version</strong>: When the app updates, the "What's New" screen shows the changelog for the version you actually installed.</li>
+<li class=""><strong>Tidier Lyrics module</strong>: The title icon now lines up with the hymn rows and resizes smoothly with the module.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fixes">Fixes<a href="https://docs.7cg.io/blog/beta-20-released#fixes" class="hash-link" aria-label="Direct link to Fixes" title="Direct link to Fixes" translate="no">​</a></h2>
+<ul>
+<li class="">Colour pickers opened from a right-click menu no longer close themselves before you can use them.</li>
+<li class="">Changing a block type's default colour now updates every existing item using that default, not just new ones.</li>
+<li class="">Fixed a crash when opening the edit dialog on Media blocks.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="getting-it">Getting it<a href="https://docs.7cg.io/blog/beta-20-released#getting-it" class="hash-link" aria-label="Direct link to Getting it" title="Direct link to Getting it" translate="no">​</a></h2>
+<p>If you're already on a 7CG 2.x beta, the auto-updater will pull beta.20 the next time you launch the app. Each update is a complete installer for your platform (Windows <code>.exe</code>, macOS <code>.dmg</code>, or Linux <code>.AppImage</code> / <code>.deb</code> / <code>.snap</code>), so there's nothing else to do once it lands. New to 7CG? Download a first install from <a href="https://7cg.io/" target="_blank" rel="noopener noreferrer" class="">7cg.io</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="known-limitations">Known limitations<a href="https://docs.7cg.io/blog/beta-20-released#known-limitations" class="hash-link" aria-label="Direct link to Known limitations" title="Direct link to Known limitations" translate="no">​</a></h2>
+<p>This is still a <strong>beta</strong>. A few things to keep in mind:</p>
+<ul>
+<li class="">macOS builds are <strong>not notarized</strong> in this release. You'll need to right-click the app and choose <strong>Open</strong> the first time to bypass Gatekeeper.</li>
+<li class="">Windows builds are <strong>not code-signed</strong> yet, so SmartScreen will warn on first launch. Click <strong>More info</strong>, then <strong>Run anyway</strong>.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reporting-bugs">Reporting bugs<a href="https://docs.7cg.io/blog/beta-20-released#reporting-bugs" class="hash-link" aria-label="Direct link to Reporting bugs" title="Direct link to Reporting bugs" translate="no">​</a></h2>
+<p>If something breaks, post in the <a href="https://chat.whatsapp.com/CxrKMAV5zfP2eSSvHi1tA1" target="_blank" rel="noopener noreferrer" class="">7CG WhatsApp group</a> with your OS, the version string from <strong>Help → About</strong>, and the steps to reproduce. The renderer log lives at:</p>
+<ul>
+<li class=""><strong>Windows</strong>: <code>%APPDATA%\7cg\logs\</code></li>
+<li class=""><strong>macOS</strong>: <code>~/Library/Logs/7cg/</code></li>
+<li class=""><strong>Linux</strong>: <code>~/.config/7cg/logs/</code></li>
+</ul>
+<p>Attaching the most recent log file will speed up triage.</p>
+<p>Thanks for testing.</p>]]></content:encoded>
+            <category>Release</category>
+        </item>
         <item>
             <title><![CDATA[7CG 2.0.0-beta.19 is out]]></title>
             <link>https://docs.7cg.io/blog/beta-19-released</link>

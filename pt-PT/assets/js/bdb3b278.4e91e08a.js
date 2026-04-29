@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_7_cg_docs=self.webpackChunk_7_cg_docs||[]).push([["9098"],{7165(e){e.exports=JSON.parse('{"metadata":{"permalink":"/pt-PT/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Novidades e atualiza\xe7\xf5es do 7CG","blogTitle":"Blog"}}')}}]);

@@ -4,10 +4,53 @@
         <title>7CG Docs Blog</title>
         <link>https://docs.7cg.io/pt-PT/blog</link>
         <description>7CG Docs Blog</description>
-        <lastBuildDate>Mon, 27 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-PT</language>
+        <item>
+            <title><![CDATA[7CG 2.0.0-beta.20 disponível]]></title>
+            <link>https://docs.7cg.io/pt-PT/blog/beta-20-released</link>
+            <guid>https://docs.7cg.io/pt-PT/blog/beta-20-released</guid>
+            <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[A v2.0.0-beta.20 do 7CG está disponível a partir de hoje. Se já usa uma versão 2.x beta, o auto-update obtém-na automaticamente da próxima vez que abrir a aplicação.]]></description>
+            <content:encoded><![CDATA[<p>A <strong>v2.0.0-beta.20</strong> do 7CG está disponível a partir de hoje. Se já usa uma versão 2.x beta, o auto-update obtém-na automaticamente da próxima vez que abrir a aplicação.</p>
+<p>Esta versão é sobre tornar o rundown mais fácil de ler de relance. Pode agora atribuir cor a blocos individuais, guardar uma palete das suas cores favoritas, e cada item passa a mostrar o ícone do seu tipo de bloco junto à etiqueta.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="novidades">Novidades<a href="https://docs.7cg.io/pt-PT/blog/beta-20-released#novidades" class="hash-link" aria-label="Link direto para Novidades" title="Link direto para Novidades" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Cor em qualquer bloco</strong>: carregue com o botão direito num item do rundown para escolher a cor. Os temas claro e escuro têm valores próprios, por isso as cores ficam bem em qualquer modo.</li>
+<li class=""><strong>Cores guardadas</strong>: construa uma palete de cores com nome em <strong>Preferências → Cores</strong> e reutilize-as em qualquer sítio onde se escolhe uma cor.</li>
+<li class=""><strong>Ícones de bloco no rundown</strong>: cada item passa a mostrar o ícone do seu tipo de bloco junto à etiqueta, tornando muito mais fácil percorrer um rundown longo.</li>
+<li class=""><strong>Ícone e etiqueta por item</strong>: blocos de Media podem substituir o ícone e a etiqueta em entradas individuais, útil quando um item de uma lista precisa de se destacar.</li>
+<li class=""><strong>Notas da versão alinhadas</strong>: quando a aplicação atualiza, o ecrã "Novidades" passa a mostrar o changelog da versão que instalou de facto.</li>
+<li class=""><strong>Módulo de Letras mais arrumado</strong>: o ícone do título alinha agora com as linhas dos hinos e redimensiona suavemente com o módulo.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="correções">Correções<a href="https://docs.7cg.io/pt-PT/blog/beta-20-released#corre%C3%A7%C3%B5es" class="hash-link" aria-label="Link direto para Correções" title="Link direto para Correções" translate="no">​</a></h2>
+<ul>
+<li class="">Os seletores de cor abertos a partir de um menu de contexto já não se fecham antes de poder usá-los.</li>
+<li class="">Alterar a cor predefinida de um tipo de bloco passa a atualizar todos os itens existentes que usam essa predefinição, não apenas os novos.</li>
+<li class="">Corrigido um crash ao abrir o diálogo de edição em blocos de Media.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="como-obter">Como obter<a href="https://docs.7cg.io/pt-PT/blog/beta-20-released#como-obter" class="hash-link" aria-label="Link direto para Como obter" title="Link direto para Como obter" translate="no">​</a></h2>
+<p>Se já usa uma versão 2.x beta, o auto-update obtém a beta.20 da próxima vez que abrir a aplicação. Cada atualização é um instalador completo para a sua plataforma (Windows <code>.exe</code>, macOS <code>.dmg</code>, ou Linux <code>.AppImage</code> / <code>.deb</code> / <code>.snap</code>), por isso não há mais nada a fazer depois de chegar. É novo no 7CG? Descarregue uma primeira instalação em <a href="https://7cg.io/" target="_blank" rel="noopener noreferrer" class="">7cg.io</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="limitações-conhecidas">Limitações conhecidas<a href="https://docs.7cg.io/pt-PT/blog/beta-20-released#limita%C3%A7%C3%B5es-conhecidas" class="hash-link" aria-label="Link direto para Limitações conhecidas" title="Link direto para Limitações conhecidas" translate="no">​</a></h2>
+<p>Esta ainda é uma <strong>beta</strong>. Notas a ter em conta:</p>
+<ul>
+<li class="">Os builds para macOS <strong>não estão notarizados</strong> nesta versão. Tem de carregar com o botão direito na aplicação e escolher <strong>Abrir</strong> da primeira vez para contornar o Gatekeeper.</li>
+<li class="">Os builds para Windows <strong>ainda não estão assinados</strong>, por isso o SmartScreen avisa no primeiro arranque. Carregue em <strong>Mais informações</strong> e depois em <strong>Executar mesmo assim</strong>.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reportar-problemas">Reportar problemas<a href="https://docs.7cg.io/pt-PT/blog/beta-20-released#reportar-problemas" class="hash-link" aria-label="Link direto para Reportar problemas" title="Link direto para Reportar problemas" translate="no">​</a></h2>
+<p>Se algo correr mal, escreva no <a href="https://chat.whatsapp.com/CxrKMAV5zfP2eSSvHi1tA1" target="_blank" rel="noopener noreferrer" class="">grupo de WhatsApp do 7CG</a> com o seu sistema operativo, a versão indicada em <strong>Help → About</strong>, e os passos para reproduzir o problema. O log do renderer está em:</p>
+<ul>
+<li class=""><strong>Windows</strong>: <code>%APPDATA%\7cg\logs\</code></li>
+<li class=""><strong>macOS</strong>: <code>~/Library/Logs/7cg/</code></li>
+<li class=""><strong>Linux</strong>: <code>~/.config/7cg/logs/</code></li>
+</ul>
+<p>Anexar o ficheiro de log mais recente acelera o diagnóstico.</p>
+<p>Obrigado por testar.</p>]]></content:encoded>
+            <category>Lançamentos</category>
+        </item>
         <item>
             <title><![CDATA[7CG 2.0.0-beta.19 disponível]]></title>
             <link>https://docs.7cg.io/pt-PT/blog/beta-19-released</link>

@@ -2,11 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.7cg.io/es/blog</id>
     <title>7CG Docs Blog</title>
-    <updated>2026-04-27T00:00:00.000Z</updated>
+    <updated>2026-04-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.7cg.io/es/blog"/>
     <subtitle>7CG Docs Blog</subtitle>
     <icon>https://docs.7cg.io/es/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[7CG 2.0.0-beta.20 ya disponible]]></title>
+        <id>https://docs.7cg.io/es/blog/beta-20-released</id>
+        <link href="https://docs.7cg.io/es/blog/beta-20-released"/>
+        <updated>2026-04-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[7CG v2.0.0-beta.20 sale hoy. Si ya estás en una beta 2.x, el actualizador automático la descargará la próxima vez que abras la aplicación.]]></summary>
+        <content type="html"><![CDATA[<p><strong>7CG v2.0.0-beta.20</strong> sale hoy. Si ya estás en una beta 2.x, el actualizador automático la descargará la próxima vez que abras la aplicación.</p>
+<p>Esta versión va de hacer el rundown más fácil de leer de un vistazo. Ya puedes asignar color a bloques individuales, guardar una paleta de tus colores favoritos, y cada elemento muestra el icono de su tipo de bloque junto a la etiqueta.</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="novedades">Novedades<a href="https://docs.7cg.io/es/blog/beta-20-released#novedades" class="hash-link" aria-label="Enlace directo al Novedades" title="Enlace directo al Novedades" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Color en cualquier bloque</strong>: pulsa con el botón derecho sobre un elemento del rundown para elegir su color. Los temas claro y oscuro tienen valores propios, así que los colores se ven bien en ambos modos.</li>
+<li class=""><strong>Colores guardados</strong>: crea una paleta de colores con nombre en <strong>Preferencias → Colores</strong> y reutilízalos en cualquier sitio donde se elija un color.</li>
+<li class=""><strong>Iconos de bloque en el rundown</strong>: cada elemento muestra ahora el icono de su tipo de bloque junto a la etiqueta, así es mucho más fácil recorrer un rundown largo.</li>
+<li class=""><strong>Icono y etiqueta por elemento</strong>: los bloques de Media pueden sobrescribir el icono y la etiqueta en entradas individuales, útil cuando un elemento de una lista necesita destacar.</li>
+<li class=""><strong>Notas de versión alineadas</strong>: cuando la aplicación se actualiza, la pantalla "Novedades" muestra el changelog de la versión que realmente has instalado.</li>
+<li class=""><strong>Módulo de Letras más cuidado</strong>: el icono del título ahora se alinea con las filas de los himnos y se redimensiona suavemente con el módulo.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="correcciones">Correcciones<a href="https://docs.7cg.io/es/blog/beta-20-released#correcciones" class="hash-link" aria-label="Enlace directo al Correcciones" title="Enlace directo al Correcciones" translate="no">​</a></h2>
+<ul>
+<li class="">Los selectores de color abiertos desde un menú contextual ya no se cierran antes de poder usarlos.</li>
+<li class="">Cambiar el color predeterminado de un tipo de bloque ahora actualiza todos los elementos existentes que usan ese valor predeterminado, no solo los nuevos.</li>
+<li class="">Corregido un cierre inesperado al abrir el diálogo de edición en bloques de Media.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cómo-conseguirla">Cómo conseguirla<a href="https://docs.7cg.io/es/blog/beta-20-released#c%C3%B3mo-conseguirla" class="hash-link" aria-label="Enlace directo al Cómo conseguirla" title="Enlace directo al Cómo conseguirla" translate="no">​</a></h2>
+<p>Si ya estás en una beta 2.x de 7CG, el actualizador automático descargará la beta.20 la próxima vez que abras la aplicación. Cada actualización es un instalador completo para tu plataforma (Windows <code>.exe</code>, macOS <code>.dmg</code>, o Linux <code>.AppImage</code> / <code>.deb</code> / <code>.snap</code>), así que no hay nada más que hacer una vez termine. ¿Eres nuevo en 7CG? Descarga una primera instalación desde <a href="https://7cg.io/" target="_blank" rel="noopener noreferrer" class="">7cg.io</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="limitaciones-conocidas">Limitaciones conocidas<a href="https://docs.7cg.io/es/blog/beta-20-released#limitaciones-conocidas" class="hash-link" aria-label="Enlace directo al Limitaciones conocidas" title="Enlace directo al Limitaciones conocidas" translate="no">​</a></h2>
+<p>Esto sigue siendo una <strong>beta</strong>. Algunas cosas a tener en cuenta:</p>
+<ul>
+<li class="">Las builds para macOS <strong>no están notarizadas</strong> en esta versión. Tendrás que pulsar con el botón derecho sobre la aplicación y elegir <strong>Abrir</strong> la primera vez para saltarte Gatekeeper.</li>
+<li class="">Las builds para Windows <strong>aún no están firmadas</strong>, así que SmartScreen avisará en el primer arranque. Pulsa en <strong>Más información</strong> y luego en <strong>Ejecutar de todas formas</strong>.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reportar-errores">Reportar errores<a href="https://docs.7cg.io/es/blog/beta-20-released#reportar-errores" class="hash-link" aria-label="Enlace directo al Reportar errores" title="Enlace directo al Reportar errores" translate="no">​</a></h2>
+<p>Si algo se rompe, escribe en el <a href="https://chat.whatsapp.com/CxrKMAV5zfP2eSSvHi1tA1" target="_blank" rel="noopener noreferrer" class="">grupo de WhatsApp de 7CG</a> con tu sistema operativo, la versión que aparece en <strong>Help → About</strong>, y los pasos para reproducirlo. El log del renderer está en:</p>
+<ul>
+<li class=""><strong>Windows</strong>: <code>%APPDATA%\7cg\logs\</code></li>
+<li class=""><strong>macOS</strong>: <code>~/Library/Logs/7cg/</code></li>
+<li class=""><strong>Linux</strong>: <code>~/.config/7cg/logs/</code></li>
+</ul>
+<p>Adjuntar el archivo de log más reciente acelera el diagnóstico.</p>
+<p>Gracias por probarla.</p>]]></content>
+        <author>
+            <name>Joel Calado</name>
+            <uri>https://jcalado.com</uri>
+        </author>
+        <category label="Lanzamientos" term="Lanzamientos"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[7CG 2.0.0-beta.19 ya disponible]]></title>
         <id>https://docs.7cg.io/es/blog/beta-19-released</id>
